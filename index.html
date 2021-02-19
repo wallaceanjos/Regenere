@@ -1,0 +1,346 @@
+<!doctype html>
+<html lang="en" class="h-100">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="">
+  <meta name="author" content="Mark Otto, Jacob Thornton, and Bootstrap contributors">
+  <meta name="generator" content="Hugo 0.80.0">
+  <title>Cover Template · Bootstrap v5.0</title>
+
+  <link rel="canonical" href="https://getbootstrap.com/docs/5.0/examples/cover/">
+
+  <!-- Bootstrap core CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+  <!-- CSS only -->
+  <link href="css/style-padrao.css" rel="stylesheet"> 
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap" rel="stylesheet"> 
+  
+  <style>
+    body{
+      background-color: #D3D3D3 ;
+      color: #313A3C;
+      line-height: 200%;
+    }
+    h1,h2,h3,h4,h5,h6{
+      font-family: 'sf_pro_displaybold';
+      font-weight: 500;
+    }
+    *,lead{
+      font-family: 'sf_pro_displayregular';
+      font-size: 1.6rem;
+    }
+    p{
+      font-family: 'sf_pro_displayregular';
+      font-size: 0.9rem;
+      line-height: 1.4em;
+    }
+    b{
+      font-family: 'sf_pro_displaybold';
+      font-size: 0.9rem;
+      line-height: 1.3em;
+    }
+    /* loading animation begin */
+    @keyframes loadbar {
+      0%{
+        background-color: #ff7500;
+        width: 0;
+        height: 5px;
+        opacity: 0.3;
+      }
+      97%{
+        background-color: #ff7500; 
+        opacity: 1;
+        height: 4px;
+        width: 100%;
+      }
+      100%{
+        background-color: #ff7500;
+        height: 0;
+        opacity: 1;
+      }
+    }
+    .la-anim-13 {
+      position: fixed;
+      top: 0;
+      left: 0;
+      z-index: 10;
+      width: 100%;
+      animation-name: loadbar;
+      animation-duration: 5s;
+    }
+    /* loading animation end */
+
+    .r-brain{
+      width: 126px;  
+    }
+    .r-telescope{
+      width: 126px;
+    }
+    .r-youtube{
+      padding:5px 5px;
+    }
+    .r-facebook{
+      padding:5px 5px;
+    }
+    .r-instagram{
+      padding:5px 5px;
+    }
+
+    .bd-placeholder-img {
+    font-size: 1.125rem;
+    text-anchor: middle;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    user-select: none;
+    }
+    .r-avatar{
+      width: 64px;
+      height: 64px;
+      background:url("img/avatar.svg");
+      border-radius: 100%;
+    }
+    .r-section-2,
+    .r-section-4,
+    .r-section-6,
+    .r-section-8{
+      background-color: white;
+    }
+    .r-section-5 .col-lg-4{
+      transition: all linear 100ms;
+      border-radius: 20px;
+    }
+    .r-section-5 .col-lg-4:hover{
+      background-color: white;
+    }
+    .r-section-7 .col-lg-6 .r-card{
+      background-color: white;
+      border-radius: 20px;
+      min-height: 100px;
+    }
+
+    /* Small devices (landscape phones, 576px and up)*/
+    @media (min-width: 576px) { 
+      .r-img{
+        max-width: 100%;
+      } 
+    }
+
+    /* Medium devices (tablets, 768px and up)*/
+    @media (min-width: 768px) {
+      .bd-placeholder-img-lg {
+        font-size: 3.5rem;
+      }
+    }
+
+    /* Large devices (desktops, 992px and up)*/
+    @media (min-width: 992px) { 
+      .r-img{
+        max-width: 380px;
+      } 
+    }
+
+    /* X-Large devices (large desktops, 1200px and up)*/
+    @media (min-width: 1200px) { 
+      .r-img{
+        width: 100%;
+        max-width: 524px;
+      } 
+    }
+
+    /* XX-Large devices (larger desktops, 1400px and up)*/
+    @media (min-width: 1400px) {
+      .r-img{
+        width: 100%;
+        max-width: 524px;
+      }
+    }
+  </style>
+</head>
+
+<body>
+  <header class="d-flex flex-column flex-md-row align-items-center p-5 px-md-4 r-header">
+    <p class="h5 my-0 me-md-auto fw-normal px-5"><img src="/img/logo.svg" class="r-logo pt-2"></p>
+    <nav class="my-2 my-md-0 me-md-3 px-lg-5">
+      <a href="#"><img class="r-instagram" src="/img/insta.svg" alt=""></a>
+      <a href="#"><img class="r-facebook" src="/img/face.svg" alt=""></a>
+      <a href="#"><img class="r-youtube" src="/img/youtube.svg" alt=""></a>
+    </nav>
+  </header>
+
+  <section class="r-section-1">
+    <div class="text-center container">
+      <div class="row py-lg-5 my-lg-5">
+        <div class="col-lg-8 col-md-12 col-md-8 mx-auto">
+          <h1>Novo fogo, mesmo amor</h1>
+          <p class="lead  px-xxl-5 mx-xxl-3 pb-5">Queremos ver gerações REGENERADAS pelo Espírito Santo, que disseminam o Reino de Deus e geram transformação no mundo.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="r-section-2">
+    <div class="container py-5">
+
+      <div class="row featurette py-md-3 py-lg-5">
+        <div class="col-xl-7 order-xl-2 text-xl-start text-center">
+          <h1 class="featurette-heading py-sm-3 py-md-3 py-lg-5 ps-xl-2 ps-xxl-5 py-xxl-5 ps-xxl-5">Somos um ministério de jovens da Igreja Deus é Amor</h1>
+          <!-- 
+          <p class="lead">Another featurette? Of course. More placeholder content here to give you an idea of how this layout would work with some actual real-world content in place.</p> -->
+        </div>
+        <div class="col-xl-5 order-xl-1 text-xl-start text-center">
+          <img class="r-img" src="/img/img.svg" alt="">
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <section class="r-section-3">
+    <div class="container py-5">
+
+    <div class="row text-center">
+      <h1 class="pb-5">Missão e Visão</h1>
+      
+      <div class="col-lg-6">
+        <img class="py-4 r-brain" src="/img/brain.svg" alt="">
+        <p class="lead">Nossa missão é proporcionar aos jovens encontros genuínos com Deus que geram mentes renovadas e um novo estilo de vida segundo a plenitude de Sua Palavra.</p>
+      </div>
+
+      <div class="col-lg-6">
+        <img class="py-4 r-telescope" src="/img/telescope.svg" alt="">
+        <p class="lead">Visao: Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.</p>
+      </div>
+
+    </div><!-- /.row -->
+
+    </div>
+  </section>
+
+  <section class="r-section-4">
+    <div class="container py-5" >
+
+    <div class="row text-center" style="height: 500px;">
+      <h1 class="pb-5">Valores</h1>
+    </div><!-- /.row -->
+
+    </div>
+  </section>
+
+  <section class="r-section-5">
+    <div class="container py-5">
+
+    <div class="row">
+      <h1 class="pb-5 text-center">O que não somos</h1>
+      
+      <div class="col-lg-4 p-4">
+        <img class="pb-4" src="/img/warning.svg" alt="">
+        <p class="p-0 mb-2"><b>Não somos contra a sã doutrina</b></p>
+        <p class="mb-0">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,</p>
+      </div>
+
+      <div class="col-lg-4 p-4">
+        <img class="pb-4" src="/img/warning.svg" alt="">
+        <p class="p-0 mb-2"><b>Não somos uma nova igreja</b></p>
+        <p class="mb-0">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,</p>
+      </div>
+      
+      <div class="col-lg-4 p-4">
+        <img class="pb-4" src="/img/warning.svg" alt="">
+        <p class="p-0 mb-2"><b>Não somos rebeldes</b></p>
+        <p class="mb-0">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,</p>
+      </div>
+
+    </div><!-- /.row -->
+
+    </div>
+  </section>
+
+  <section class="r-section-6">
+    <div class="container py-5">
+
+      <div class="row featurette py-md-3 py-lg-5">
+        <div class="col-xl-7 order-xl-2 text-xl-start text-center">
+          <h1 class="featurette-heading pt-sm-3 pt-md-3 pt-lg-5 ps-xl-2 pt-xl-4 pt-xxl-5 ps-xxl-5 ">David Miranda Neto</h1>
+          <p class="lead pb-md-3 pb-lg-5 ps-xl-2 ps-xxl-5">Queremos ver gerações REGENERADAS pelo Espírito Santo, que disseminam o Reino de Deus e geram transformação no mundo.</p>
+        </div>
+        <div class="col-xl-5 order-xl-1 text-xl-start text-center">
+          <img class="r-img" src="/img/img.svg" alt="">
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <section class="r-section-7">
+    <div class="container py-5">
+      <h1 class="pb-5 text-center">Testemunhos</h1>
+
+      <div class="row">
+        <div class="col-lg-6 px-2 mb-3">
+          <div class="r-card px-4 py-3">
+            <p class="lh-sm">O Regenere nos impulsiona a mergulhar cada vez mais fundo em Deus!</p>
+            <div class="d-flex">
+              <div class="r-avatar d-placeholder-img flex-shrink-0 me-2 mt-1"></div>
+              <div class="mb-0">
+                <p class="m-0"><b>Amanda Pedrosa</b><br>Gerente de Comunicação</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-6 px-2 mb-3">
+          <div class="r-card px-4 py-3">
+            <p class="lh-sm">O Regenere nos impulsiona a mergulhar cada vez mais fundo em Deus!</p>
+            <div class="d-flex">
+              <div class="r-avatar d-placeholder-img flex-shrink-0 me-2 mt-1"></div>
+              <div class="mb-0">
+                <p class="m-0"><b>Amanda Pedrosa</b><br>Gerente de Comunicação</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div><!-- /.row -->
+
+      <div class="row">
+        <div class="col-lg-6 px-2 mb-3">
+          <div class="r-card px-4 py-3">
+            <p class="lh-sm">O Regenere nos impulsiona a mergulhar cada vez mais fundo em Deus!</p>
+            <div class="d-flex">
+              <div class="r-avatar d-placeholder-img flex-shrink-0 me-2 mt-1"></div>
+              <div class="mb-0">
+                <p class="m-0"><b>Amanda Pedrosa</b><br>Gerente de Comunicação</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-6 px-2 mb-3">
+          <div class="r-card px-4 py-3">
+            <p class="lh-sm">O Regenere nos impulsiona a mergulhar cada vez mais fundo em Deus!</p>
+            <div class="d-flex">
+              <div class="r-avatar d-placeholder-img flex-shrink-0 me-2 mt-1"></div>
+              <div class="mb-0">
+                <p class="m-0"><b>Amanda Pedrosa</b><br>Gerente de Comunicação</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div><!-- /.row -->
+
+    </div>
+  </section>
+
+  <section class="r-section-8">
+    <div class="container py-5" >
+
+    <div class="row text-center" style="height: 500px;">
+      <h1 class="pb-5">Seja um voluntário</h1>
+    </div><!-- /.row -->
+
+    </div>
+  </section>
+  
+</body>
+
+</html>
