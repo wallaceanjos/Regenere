@@ -91,6 +91,9 @@
 
     /* loading animation end */
 
+.r-header{
+  width: 100%;
+}
     .r-brain {
       width: 126px;
     }
@@ -111,6 +114,13 @@
       padding: 5px 5px;
     }
 
+    .r-logo img,
+    .r-youtube,
+    .r-facebook,
+    .r-instagram {
+      height: 1em;
+    }
+
     .bd-placeholder-img {
       font-size: 1.125rem;
       text-anchor: middle;
@@ -125,7 +135,12 @@
       background: url("img/avatar.svg");
       border-radius: 100%;
     }
-
+    .r-section-1{
+      height: 100vh;
+    }
+    .r-section-2{
+      margin-top:-5px;
+    }
     .r-section-2,
     .r-section-4 {
       background-color: #986BB2;
@@ -211,6 +226,39 @@
       text-align: center;
     }
 
+
+    .wrap {
+      /*Ajuste a largura e altura desejadas aqui*/
+      width: 100%;
+      height: auto;
+      /*isto fará o elemento video e o .container se adaptarem ao .wrap*/
+      position: absolute;
+      top: 0;
+    }
+
+    .wrap>.bg-video {
+      background: url('img/videobackground.png')no-repeat center center / cover;
+
+      position: absolute;
+      top: 0;
+      left: 0;
+      z-index: -1;
+      /*apenas um -1 é necessário quando se trabalha com relative + absolute, sendo pai e filho*/
+      width: 100%;
+      height: 100vh;
+      overflow: hidden;
+      /* evita do video passar a altura desejada do .wrap */
+      margin-top: -5px;
+    }
+    .wrap>.bg-video>video {
+      height: 100%;
+      width: 177.77777778vh;
+      /* 100 * 16 / 9 */
+      min-width: 100%;
+      min-height: 56.25vw;
+      /* 100 * 9 / 16 */
+    }
+
     /* Small devices (landscape phones, 576px and up)*/
     @media (min-width: 576px) {
       .r-img {
@@ -231,6 +279,7 @@
         text-align: right;
         width: 210px;
       }
+ 
     }
 
     /* Medium devices (tablets, 768px and up)*/
@@ -242,6 +291,12 @@
       .r-img {
         max-width: 380px;
       }
+      .r-logo,
+      .r-youtube,
+    .r-facebook,
+    .r-instagram {
+      height: initial;
+    }
 
     }
 
@@ -268,44 +323,16 @@
       }
     }
 
-    .wrap {
-      /*Ajuste a largura e altura desejadas aqui*/
-      width: 100%;
-      height: auto;
-      /*isto fará o elemento video e o .container se adaptarem ao .wrap*/
-      position: absolute;
-      top: 0;
-    }
-
-    .wrap>.bg-video {
-      position: absolute;
-      top: 0;
-      left: 0;
-      z-index: -1;
-      /*apenas um -1 é necessário quando se trabalha com relative + absolute, sendo pai e filho*/
-      width: 100%;
-      overflow: hidden;
-      /* evita do video passar a altura desejada do .wrap */
-      margin-top: -5px;
-    }
-
-    .wrap>.bg-video>video {
-      height: 100%;
-      width: 177.77777778vh;
-      /* 100 * 16 / 9 */
-      min-width: 100%;
-      min-height: 56.25vw;
-      /* 100 * 9 / 16 */
-    }
   </style>
 </head>
 
 <body>
-  <header class="py-4 py-sm-1 px-sm-2 px-md-4 r-header">
-    <nav class="r-nav my-2 m-0 px-lg-5">
+  
+  <header class="py-1 py-sm-4 px-sm-2 px-md-4 r-header position-absolute">
+    <nav class="r-nav m-0 px-lg-5">
 
       <div class="r-logo">
-        <a href="#"><img src="img/logo.svg" class=" pt-2"></a>
+        <a href="#"><img src="img/logo.svg" class="pt-1"></a>
       </div>
       <div class="r-social">
         <a href="#"><img class="r-instagram" src="img/insta.svg" alt=""></a>
@@ -315,15 +342,10 @@
 
     </nav>
   </header>
-  <style>
-
-  </style>
-
-  <section class="r-section-1 py-sm-3 py-md-0 py-lg-5 py-xl-4 py-xxl-5">
-
+  <section class="r-section-1 d-flex justify-content-center align-items-center py-sm-3 py-md-0 py-lg-5 py-xl-4 py-xxl-5">
     <div class="wrap">
       <div class="bg-video">
-        <video autoplay muted loop src="video/bg-video-regenere.mp4"></video>
+        <video autoplay muted loop src="video/bg-video-regenere-compressed.mp4"></video>
       </div>
 
     </div>
