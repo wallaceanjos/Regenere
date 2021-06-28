@@ -21,7 +21,7 @@
   <style>
     body{
       background-color: #D3D3D3 ;
-      color: #313A3C;
+      color: #986BB2;
       line-height: 200%;
     }
     h1,h2,h3,h4,h5,h6{
@@ -42,6 +42,9 @@
       font-size: 0.9rem;
       line-height: 1.3em;
     }
+
+
+
     /* loading animation begin */
     @keyframes loadbar {
       0%{
@@ -103,7 +106,45 @@
       border-radius: 100%;
     }
     .r-section-2,
-    .r-section-4,
+    .r-section-4{
+      background-color: #986BB2;
+      color: #ffffff;
+    }
+    .r-section-4 .col-lg-4{
+      text-align: left;  
+    }
+    .r-section-4 .r-highlight{
+      background-color: white;
+      color: #986BB2;
+      border-radius: 20px;
+      min-height: 100px;
+    }
+
+    .r-section-6 .r-img{
+      border-radius: 20px;
+    }
+    .r-section-6 a {
+      color: #986BB2;
+      text-decoration: none;
+      font-size: .6em;
+    }
+    .r-section-6 a .r-img{
+      height: 20px;
+      display: inline-block;
+      width: auto;
+      border-radius: 0;
+      padding: 0px 7px;
+    }
+    .r-section-8 .r-btn{
+      width: auto;
+    margin: 0 auto;
+    border-radius: 50px;
+    border: none;
+    padding: 0.5em 2em;
+    color: #fff;
+    background-color: #986bb2;
+    }
+    .r-section-3,
     .r-section-6,
     .r-section-8{
       background-color: white;
@@ -124,11 +165,36 @@
     .r-img{
         width: 100%;
       } 
+      .r-nav{
+ display: block;
+        margin: 0 auto;
+}
+.r-logo{
+  display: block;
+  text-align: center;
+}
+.r-social{
+  display: block;
+  text-align: center;
+}
+
     /* Small devices (landscape phones, 576px and up)*/
     @media (min-width: 576px) { 
       .r-img{
         max-width: 100%;
       } 
+      .r-nav{
+ display: flex;
+ justify-content: space-between;
+ 
+}
+.r-logo{
+  display: initial;
+}
+.r-social{
+  text-align: right;
+  width: 210px;
+}
     }
 
     /* Medium devices (tablets, 768px and up)*/
@@ -161,44 +227,85 @@
     @media (min-width: 1400px) {
       .r-img{
         width: 100%;
-        max-width: 524px;
+        max-width: 100%;
       }
     }
+  .wrap {
+    /*Ajuste a largura e altura desejadas aqui*/
+    width: 100%;
+    height: auto;
+    /*isto fará o elemento video e o .container se adaptarem ao .wrap*/
+    position: absolute;
+    top: 0;
+  }
+
+.wrap > .bg-video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1; /*apenas um -1 é necessário quando se trabalha com relative + absolute, sendo pai e filho*/
+    width: 100%;
+    overflow: hidden; /* evita do video passar a altura desejada do .wrap */
+    margin-top: -5px;
+}
+.wrap > .bg-video > video {
+    height: 100%;
+    width: 177.77777778vh; /* 100 * 16 / 9 */
+    min-width: 100%;
+    min-height: 56.25vw; /* 100 * 9 / 16 */
+}
+
   </style>
 </head>
 
 <body>
-  <header class="d-flex flex-column flex-md-row align-items-center p-5 px-md-4 r-header">
-    <p class="h5 my-0 me-md-auto fw-normal px-5"><img src="img/logo.svg" class="r-logo pt-2"></p>
-    <nav class="my-2 my-md-0 me-md-3 px-lg-5">
+  <header class="py-4 py-sm-1 px-sm-2 px-md-4 r-header">
+    <nav class="r-nav my-2 m-0 px-lg-5">
+
+    <div class="r-logo">
+      <a href="#"><img src="img/logo.svg" class=" pt-2"></a>
+    </div>
+    <div class="r-social">
       <a href="#"><img class="r-instagram" src="img/insta.svg" alt=""></a>
       <a href="#"><img class="r-facebook" src="img/face.svg" alt=""></a>
       <a href="#"><img class="r-youtube" src="img/youtube.svg" alt=""></a>
+    </div>
+      
     </nav>
   </header>
+  <style>
 
-  <section class="r-section-1">
+  </style>
+
+  <section class="r-section-1 py-sm-3 py-md-0 py-lg-5 py-xl-4 py-xxl-5">
+
+    <div class="wrap">
+    <div class="bg-video">
+        <video autoplay muted loop src="video/bg-video-regenere.mp4"></video>
+    </div>
+
+</div>
+
     <div class="text-center container">
-      <div class="row py-lg-5 my-lg-5">
+      <div class="row py-lg-5">
         <div class="col-lg-8 col-md-12 col-md-8 mx-auto">
           <h1>Novo fogo, mesmo amor</h1>
-          <p class="lead  px-xxl-5 mx-xxl-3 pb-5">Queremos ver gerações REGENERADAS pelo Espírito Santo, que disseminam o Reino de Deus e geram transformação no mundo.</p>
+          <p class=" px-xxl-5 mx-xxl-3 pb-md-5">Queremos ver gerações REGENERADAS pelo Espírito Santo, que disseminam o Reino de Deus e geram transformação no mundo.</p>
         </div>
       </div>
     </div>
   </section>
 
-  <section class="r-section-2">
-    <div class="container py-5">
+  <section class="r-section-2 bg-purple">
+    <div class="container py-4">
 
-      <div class="row featurette py-md-3 py-lg-5">
-        <div class="col-xl-7 order-xl-2 text-xl-start text-center">
-          <h1 class="featurette-heading py-sm-3 py-md-3 py-lg-5 ps-xl-2 ps-xxl-5 py-xxl-5 ps-xxl-5">Somos um ministério de jovens da Igreja Deus é Amor</h1>
-          <!-- 
-          <p class="lead">Another featurette? Of course. More placeholder content here to give you an idea of how this layout would work with some actual real-world content in place.</p> -->
+      <div class="row featurette">
+        <div class="col-xl-6 order-xl-2 text-xl-start">
+          <p class=" py-5 m-0">Somos os jovens da sede mundial da Igreja Deus é Amor. Usamos uma linguagem atual para alcançar os jovens do século 21 com o Evangelho genuíno de Cristo. Tendo a Bíblia como base de vida, entendemos que apenas através da regeneração (novo nascimento) pelo Espirito Santo podemos entrar no Reino de Deus e manifestá-lo na terra.
+          </p>
         </div>
-        <div class="col-xl-5 order-xl-1 text-xl-start text-center">
-          <img class="r-img" src="img/img.svg" alt="">
+        <div class="col-xl-6 order-xl-1 text-xl-start text-center">
+          <img class="r-img py-3" src="img/image.png" alt="">
         </div>
       </div>
 
@@ -213,12 +320,13 @@
       
       <div class="col-lg-6">
         <img class="py-4 r-brain" src="img/brain.svg" alt="">
-        <p class="lead">Nossa missão é proporcionar aos jovens encontros genuínos com Deus que geram mentes renovadas e um novo estilo de vida segundo a plenitude de Sua Palavra.</p>
+        <p class="lead">Nossa missão é Proporcionar aos jovens encontros genuínos com Deus para gerar
+          mentes renovadas e um novo estilo de vida espiritual.</p>
       </div>
 
       <div class="col-lg-6">
         <img class="py-4 r-telescope" src="img/telescope.svg" alt="">
-        <p class="lead">Visao: Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.</p>
+        <p class="lead">Visao: Ver gerações REGENERADAS pelo Espírito Santo e que disseminam o Reino de Deus, gerando transformação no mundo.</p>
       </div>
 
     </div><!-- /.row -->
@@ -228,11 +336,89 @@
 
   <section class="r-section-4">
     <div class="container py-5" >
+      <h1 class="pb-5 text-center">Valores</h1>
+      <p class="h4 pb-5 text-center"> Os nossos valores são nossos fundamentos bíblicos, que norteiam todos os nossos trabalhos e atividades.</p>
 
-    <div class="row text-center" style="height: 500px;">
-      <h1 class="pb-5">Valores</h1>
-    </div><!-- /.row -->
+      <div class="row pb-3">
 
+        <div class="col-lg-4 p-4">
+          <img class="pb-4" src="img/warning_white.svg" alt="">
+          <p class="p-0 mb-2"><b>ADORAÇÃO:</b></p>
+          <p class="mb-0">m estilo de vida que reconhece a sublimidade de Deus em tudo o que fizermos. (I Cor.10:31)</p>
+        </div>
+
+        <div class="col-lg-4 p-4 r-highlight">
+          <img class="pb-4" src="img/warning.svg" alt="">
+          <p class="p-0 mb-2"><b>AMOR:</b></p>
+          <p class="mb-0">Aquele que um dia conheceu o amor de Deus, naturalmente ama o seu próximo.  (João 13:34; I João 4:8)</p>
+        </div>
+        
+        <div class="col-lg-4 p-4">
+          <img class="pb-4" src="img/warning_white.svg" alt="">
+          <p class="p-0 mb-2"><b>GRAÇA:</b></p>
+          <p class="mb-0">O Sacrifício de Jesus na Cruz é suficiente para perdoar todos os pecados daqueles que tiverem fé. (Rm.3.24; Ef.2.8-9)</p>
+        </div>
+
+      </div><!-- /.row -->
+
+      <div class="row text-center pb-3">
+
+        <div class="col-lg-4 p-4 r-highlight">
+          <img class="pb-4" src="img/warning.svg" alt="">
+          <p class="p-0 mb-2"><b>SANTIDADE:</b></p>
+          <p class="mb-0">Mediante o Espírito Santo que habita em nós, somos levados a viver conforme as escrituras e desenvolver em nós o caráter de Cristo. (Gal 2:16- 21; Lv.20:26)</p>
+        </div>
+        
+        <div class="col-lg-4 p-4">
+          <img class="pb-4" src="img/warning_white.svg" alt="">
+          <p class="p-0 mb-2"><b>RELACIONAMENTO COM DEUS:</b></p>
+          <p class="mb-0">O desejo de Deus é se relacionar com o ser humano. Portanto, buscamos uma interação diária com Ele através de oração, jejum e leitura da palavra, a fim de desenvolver mais intimidade com o Criador. (Jo.15:15; Marcos 15:39)</p>
+        </div>
+
+        <div class="col-lg-4 p-4 r-highlight">
+          <img class="pb-4" src="img/warning.svg" alt="">
+          <p class="p-0 mb-2"><b>FRATERNIDADE:</b></p>
+          <p class="mb-0">Todos que aceitaram o sacrifício de Jesus se tornaram filhos de Deus e fazem parte da mesma família. Sabendo disso, vivemos uns pelos outros, sendo um só corpo em Cristo. (Jo.17:21; Rm.12:10)
+          </p>
+        </div>
+
+      </div><!-- /.row -->
+
+      <div class="row text-center pb-3">
+
+        <div class="col-lg-4 p-4">
+          <img class="pb-4" src="img/warning_white.svg" alt="">
+          <p class="p-0 mb-2"><b>MOVER SOBRENATURAL:</b></p>
+          <p class="mb-0">Exercemos a autoridade que Cristo nos deu, por intermédio do Espírito Santo que habita em nós, manifestando o reino de Deus na terra. (Jo. 14:12; Mc.16:15-20)
+          </p>
+        </div>
+
+        <div class="col-lg-4 p-4 r-highlight">
+          <img class="pb-4" src="img/warning.svg" alt="">
+          <p class="p-0 mb-2"><b>HONRA:</b></p>
+          <p class="mb-0">De acordo com a perspectiva de Deus, valorizamos e respeitamos todas as pessoas. E reconhecemos que toda autoridade é estabelecida por Ele. (Rm.13:1-2; I Pe.2:17)</p>
+        </div>
+        
+        <div class="col-lg-4 p-4">
+          <img class="pb-4" src="img/warning_white.svg" alt="">
+          <p class="p-0 mb-2"><b>EXCELÊNCIA:</b></p>
+          <p class="mb-0">Em tudo nós vemos a perfeição e a excelência do Criador. Como imitadores dEle, acreditamos na excelência como uma forma de honrar, adorar e expressar o caráter de Deus em tudo que Ele confia em nossas mãos e em tudo o que fazemos. (Cl. 3:23; Mt. 5:16; Mt. 25:14-28; Dn. 6:3)</p>
+        </div>
+
+      </div><!-- /.row -->
+
+      <div class="row pb-3">
+
+        <div class="col-lg p-4 r-highlight">
+          <img class="pb-4" src="img/warning.svg" alt="">
+          <p class="p-0 mb-2"><b>DISCIPULADO:</b></p>
+          <p class="mb-0">Cristo nos comissionou ao discipulado, e essa foi a forma que Ele preparou os que vieram depois dEle para levar o Reino de Deus ao mundo. Portanto, o discipulado é a forma como nos capacitamos, uns aos outros, a sermos mais parecidos com Cristo. Nós somos discípulos de Jesus e devemos discipular outros conforme aprendemos com Ele, trazendo conhecimento, maturidade espiritual e um estilo de vida cristão. (Mt. 28:19; II Tim. 2:1-2; I Cor 11:1)
+          </p>
+        </div>
+        
+      </div><!-- /.row -->
+    
+    
     </div>
   </section>
 
@@ -245,19 +431,19 @@
       <div class="col-lg-4 p-4">
         <img class="pb-4" src="img/warning.svg" alt="">
         <p class="p-0 mb-2"><b>Não somos contra a sã doutrina</b></p>
-        <p class="mb-0">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,</p>
+        <p class="mb-0"></p>
       </div>
 
       <div class="col-lg-4 p-4">
         <img class="pb-4" src="img/warning.svg" alt="">
         <p class="p-0 mb-2"><b>Não somos uma nova igreja</b></p>
-        <p class="mb-0">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,</p>
+        <p class="mb-0"></p>
       </div>
       
       <div class="col-lg-4 p-4">
         <img class="pb-4" src="img/warning.svg" alt="">
         <p class="p-0 mb-2"><b>Não somos rebeldes</b></p>
-        <p class="mb-0">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,</p>
+        <p class="mb-0"></p>
       </div>
 
     </div><!-- /.row -->
@@ -271,12 +457,99 @@
       <div class="row featurette py-md-3 py-lg-5">
         <div class="col-xl-7 order-xl-2 text-xl-start text-center">
           <h1 class="featurette-heading pt-sm-3 pt-md-3 pt-lg-5 ps-xl-2 pt-xl-4 pt-xxl-5 ps-xxl-5 ">David Miranda Neto</h1>
-          <p class="lead pb-md-3 pb-lg-5 ps-xl-2 ps-xxl-5">Queremos ver gerações REGENERADAS pelo Espírito Santo, que disseminam o Reino de Deus e geram transformação no mundo.</p>
+          <p class="lead pb-2 ps-xl-2 ps-xxl-5">Sintam-se em casa aqui no Ministério Regenere! Mesmo que esse trabalho seja voltado aos jovens, todos são bem vindos aqui, independente de idade. Se nossa linguagem de comunicar o Evangelho fala com você, vem e vê!</p>
+
+          <p class="pb-2 ps-xl-2 ps-xxl-5">
+            Gosto sempre de falar que o Regenere não foi uma iniciativa minha, mas algo que foi gerado no coração de Deus e confiado a mim, de uma forma magnífica! Vivi durante minha infância e adolescência inteira dentro da igreja, mas tudo mudou em 2013 quando de fato tive um encontro regenerador com Cristo.</p>
+
+            <p class="pb-2 ps-xl-2 ps-xxl-5"> Ao ter minha vida transformada por Deus, percebi que isso é uma a realidade de muitos que estão dentro da igreja. Existe a necessidade urgente de se conhecer a Deus, acima de qualquer igreja ou religião! É isso que o Regenere busca proporcionar. Encontros transformadores com o Deus vivo, Criador de céus e terra, que insiste em nos chamar de filhos.</p>
+
+            <p class="pb-2 ps-xl-2 ps-xxl-5">
+            Nosso maior desejo é que todos possam conhecer a maravilhosa graça e amor de Deus, que sempre vem em direção a nós pecadores, para nos perdoar, salvar e santificar. Deus é magnífico!</p>
+
+            <a href="#" class="pb-2 ps-xl-2 ps-xxl-5">
+              <img class="r-img" src="img/insta.svg" alt=""> @davidmirandaneto</a>
         </div>
-        <div class="col-xl-5 order-xl-1 text-xl-start text-center">
-          <img class="r-img" src="img/img.svg" alt="">
+        <div class="col-xl-5 order-xl-1 text-xl-start text-center py-5">
+          <img class="r-img " src="img/davidmirandaneto.png" alt="">
         </div>
       </div>
+
+    </div>
+  </section>
+
+  <section class="r-section-7">
+    <div class="container py-5">
+      <h1 class="pb-5 text-center">Liderança</h1>
+
+      <div class="row">
+        <div class="col-lg-6 px-2 mb-3">
+          <div class="r-card px-4 py-3">
+            <div class="d-flex">
+              <div class="r-avatar d-placeholder-img flex-shrink-0 me-2 mt-1"></div>
+              <div class="mb-0">
+                <p class="m-0"><b>David</b><br> Fundador e Líder RGNR</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-6 px-2 mb-3">
+          <div class="r-card px-4 py-3">
+            <div class="d-flex">
+              <div class="r-avatar d-placeholder-img flex-shrink-0 me-2 mt-1"></div>
+              <div class="mb-0">
+                <p class="m-0"><b>Rafael Leonardo</b><br>Head da Equipe RGNR </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div><!-- /.row -->
+
+      <div class="row">
+        <div class="col-lg-6 px-2 mb-3">
+          <div class="r-card px-4 py-3">
+            <div class="d-flex">
+              <div class="r-avatar d-placeholder-img flex-shrink-0 me-2 mt-1"></div>
+              <div class="mb-0">
+                <p class="m-0"><b>Lili Santos</b><br>Comunicação</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-6 px-2 mb-3">
+          <div class="r-card px-4 py-3">
+            <div class="d-flex">
+              <div class="r-avatar d-placeholder-img flex-shrink-0 me-2 mt-1"></div>
+              <div class="mb-0">
+                <p class="m-0"><b>Marcos Tavares</b><br>Discipulado</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div><!-- /.row -->
+
+      <div class="row">
+        <div class="col-lg-6 px-2 mb-3">
+          <div class="r-card px-4 py-3">
+            <div class="d-flex">
+              <div class="r-avatar d-placeholder-img flex-shrink-0 me-2 mt-1"></div>
+              <div class="mb-0">
+                <p class="m-0"><b>Paulo Figueira</b><br>Frentes Ministeriais</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-6 px-2 mb-3">
+          <div class="r-card px-4 py-3">
+            <div class="d-flex">
+              <div class="r-avatar d-placeholder-img flex-shrink-0 me-2 mt-1"></div>
+              <div class="mb-0">
+                <p class="m-0"><b>Thiago Ferreira</b><br>Administração e Finanças</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div><!-- /.row -->
 
     </div>
   </section>
@@ -288,47 +561,23 @@
       <div class="row">
         <div class="col-lg-6 px-2 mb-3">
           <div class="r-card px-4 py-3">
-            <p class="lh-sm">O Regenere nos impulsiona a mergulhar cada vez mais fundo em Deus!</p>
+            <p class="lh-sm">Já fazia um tempo que quando cantava, orava ou falava muito, sentia dor de garganta e era necessário fazer uma pausa para aliviar. Durante uma vigília Regenere isso aconteceu, mas eu continuei. Quando estava terminando, teve a oração de milagres e Jesus usou um jovem dizendo que estava curando a garganta de uma pessoa, nesse momento eu estava com a mão no pescoço pedindo a cura. Orei novamente e não senti dor. Na semana seguinte foi o Regenere Weekend, louvei e orei tranquilamente, e até hoje não sinto mais nada.</p>
             <div class="d-flex">
-              <div class="r-avatar d-placeholder-img flex-shrink-0 me-2 mt-1"></div>
+              <div class="r-avatar d-placeholder-img flex-shrink-0 me-2 mt-0"></div>
               <div class="mb-0">
-                <p class="m-0"><b>Amanda Pedrosa</b><br>Gerente de Comunicação</p>
+                <p class="pt-2"><b>Sara Santana</b></p>
               </div>
             </div>
           </div>
         </div>
         <div class="col-lg-6 px-2 mb-3">
           <div class="r-card px-4 py-3">
-            <p class="lh-sm">O Regenere nos impulsiona a mergulhar cada vez mais fundo em Deus!</p>
+            <p class="lh-sm">Um pouco antes do Regenere ser criado, eu estava com dificuldade para encontrar um trabalho em que tivesse tempo para estudar, cultuar e ter um bom relacionamento com meus familiares e amigos. Me lembro de um Connect que fiquei o culto inteiro pedindo pra Deus ouvir minhas orações. No final, quando fizemos uma oração em conjunto, pedi ao Pai para abrir uma porta de emprego e prometi contar esse grande testemunho. Algum tempo depois, Ele abriu uma porta de emprego que supriu todas as minhas expectativas. Saiba de uma coisa: Deus sempre ouve a sua oração, Ele nunca falha! Tudo está no controle das mãos dEle. 
+            </p>
             <div class="d-flex">
-              <div class="r-avatar d-placeholder-img flex-shrink-0 me-2 mt-1"></div>
+              <div class="r-avatar d-placeholder-img flex-shrink-0 me-2 mt-0"></div>
               <div class="mb-0">
-                <p class="m-0"><b>Amanda Pedrosa</b><br>Gerente de Comunicação</p>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div><!-- /.row -->
-
-      <div class="row">
-        <div class="col-lg-6 px-2 mb-3">
-          <div class="r-card px-4 py-3">
-            <p class="lh-sm">O Regenere nos impulsiona a mergulhar cada vez mais fundo em Deus!</p>
-            <div class="d-flex">
-              <div class="r-avatar d-placeholder-img flex-shrink-0 me-2 mt-1"></div>
-              <div class="mb-0">
-                <p class="m-0"><b>Amanda Pedrosa</b><br>Gerente de Comunicação</p>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="col-lg-6 px-2 mb-3">
-          <div class="r-card px-4 py-3">
-            <p class="lh-sm">O Regenere nos impulsiona a mergulhar cada vez mais fundo em Deus!</p>
-            <div class="d-flex">
-              <div class="r-avatar d-placeholder-img flex-shrink-0 me-2 mt-1"></div>
-              <div class="mb-0">
-                <p class="m-0"><b>Amanda Pedrosa</b><br>Gerente de Comunicação</p>
+                <p class="pt-2"><b>Juliana Ferreira</b></p>
               </div>
             </div>
           </div>
@@ -338,11 +587,13 @@
     </div>
   </section>
 
+
   <section class="r-section-8">
     <div class="container py-5" >
 
-    <div class="row text-center" style="height: 500px;">
-      <h1 class="pb-5">Seja um voluntário</h1>
+    <div class="row text-center">
+      <h1 class="pb-5">Venha fazer parte!</h1>
+      <a href="#" class="r-btn btn btn-lg btn-primary">Vem</a>
     </div><!-- /.row -->
 
     </div>
