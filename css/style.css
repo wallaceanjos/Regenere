@@ -1587,6 +1587,11 @@ hr.light {
 	float: none !important;
 	overflow: hidden;
 }
+.small-device-menu .large-nav ul li a img{
+	height: 24px;
+	margin: 0 0 4px 0
+}
+
 .small-device-menu .large-nav ul li ul {
 	padding: 0;
 	border-bottom: 1px solid rgba(255, 255, 255, 0.1);
@@ -1607,7 +1612,7 @@ hr.light {
 	-moz-box-sizing: border-box;
 	box-sizing: border-box;
 	padding: 0 10px;
-	text-align: left;
+	text-align: center;
 	border-left: none;
 	border-right: none;
 	border-bottom: 1px solid rgba(255, 255, 255, 0.065);
@@ -2958,6 +2963,8 @@ h1.motion-text .slide.active span {
 	.container .block-item-3 .block-item {
 		width: 100% !important;
 	}
+
+
 }
 
 /*Portfolio default*/
