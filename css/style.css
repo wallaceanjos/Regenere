@@ -1029,7 +1029,7 @@ hr.light {
 	-webkit-box-shadow: 0 2px 9px 0 rgb(21 21 21 / 69%);
 	margin: -50px 0 0 -50px;
 	z-index: 100001;
-	background: url(images/logo.svg)no-repeat center 44px / 80px var(--primary);
+	background: url("../images/logo.svg")no-repeat center 44px / 80px var(--primary);
 }
 
 .loader-area {
