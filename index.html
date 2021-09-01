@@ -99,13 +99,28 @@
 
 			<!-- HOME SECTION
 				================================================== -->
-			<section id="home" class="home page-section overlay-dark-alpha-60 parallax-2"
-				data-background="images/home/image_6.jpg">
-				<!-- Video BG Init -->
-				<div class="player"
-					data-property="{videoURL:'https://www.youtube.com/watch?v=f7vOP0c2dcY',containment:'#home',autoPlay:true, showControls:false, showYTLogo: false, mute:true, startAt:0, opacity:1,addRaster:false, quality:'default'}">
+			<section id="home" class="home page-section overlay-dark-alpha-60"
+				data-background="images/home/videobackground.jpg">
+				
+				<div class="video-container">
+					<video autoplay muted loop class="r-video-bg">
+						<source src="/assets/video/layout-rgnr.mp4" type="video/mp4">
+						Your browser does not support HTML5 video.
+					</video>
 				</div>
+
+				<!-- Video BG Init desktop -->
+				<!-- <div class="player"
+					data-property="{videoURL:'https://www.youtube.com/watch?v=f7vOP0c2dcY',containment:'#home',autoPlay:true, showControls:false, showYTLogo: false, mute:true, startAt:0, opacity:1,addRaster:false, quality:'default'}">
+				</div> -->
 				<!-- End Video BG Init -->
+
+				<!-- Video BG Init mobile -->
+				<!-- <div class="video-wrapper" id="html5-video">                        
+					<div class="overlay-dark-alpha-40"></div>
+				</div> -->
+				<!-- End Video BG Init -->
+
 				<div class="height-parent container zindex1">
 					<div class="table-content">
 						<div class="table-center-text">
@@ -257,7 +272,7 @@
 					<div class="row pb-3">
 
 						<!-- Flickity HTML init -->
-						<div class="carousel" data-flickity='{ "freeScroll": false }'>
+						<div class="carousel" data-flickity='{ "adaptiveHeight": true }'>
 							<div class="carousel-cell">
 
 								<div class="col-lg-12 px-5 py-1 r-highlight">
@@ -651,6 +666,7 @@
 	<script src="https://npmcdn.com/flickity@2/dist/flickity.pkgd.js"></script>
 	<script src="js/jquery-2.2.4.min.js"></script>
 	<script src="js/jquery.easing.min.js"></script>
+	<script src="js/jquery.backgroundvideo.min.js"></script>
 	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js"
 		integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj"
 		crossorigin="anonymous"></script>
@@ -670,6 +686,7 @@
 	<script src="js/wow.min.js"></script>
 	<script src="js/script.js"></script>
 	<script src="js/jquery.mb.YTPlayer.js"></script>
+
 </body>
 
 </html>
