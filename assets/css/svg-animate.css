@@ -1,0 +1,15 @@
+svg.understroke {
+    stroke-dasharray: 4000;
+    stroke-dashoffset: 4000;
+    pointer-events: none;
+    animation: understroke 20s ease-out forwards;
+    width:600px;
+  }
+  path, rect, circle{fill:none;}
+  
+  @keyframes understroke {
+    to {
+      stroke-dashoffset: 0;
+    }
+  }
+  
