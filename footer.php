@@ -92,7 +92,7 @@
 
 
             <!-- Foter -->
-            <footer class="page-section bg-gray-lighter footer pb-60">
+            <footer class="page-section primary-bg-500 footer pb-60">
                 <div class="container">
                     
                     <?php
@@ -105,21 +105,14 @@
                     </div>
                     <!-- End Footer Logo -->
               
-                    <!-- Social Links -->
-                    <div class="footer-social-links mb-110 mb-xs-60">
-                        <a href="https://instagram.com/josuevalandrojr/" title="Instagram" target="_blank"><i class="fa fa-instagram"></i></a>
-                        <a href="https://youtube.com/PRJOSUEVALANDROJR" title="YouTube" target="_blank"><i class="fa fa-youtube"></i></a>
-                        <a href="https://facebook.com/prjosuevalandrojr/" title="Facebook" target="_blank"><i class="fa fa-facebook"></i></a>
-                        <a href="https://twitter.com/pastorjosue" title="Twitter" target="_blank"><i class="fa fa-twitter"></i></a>
-                    </div>
-                    <!-- End Social Links -->
+                    
 
                     <!-- Footer Text -->
                     <div class="footer-text">
 
                         <!-- Copyright -->
                         <div class="footer-copy font-alt">
-                            <a href="#home" target="_blank">&copy; Josue Valandro Jr. 2023</a>.
+                            <a href="#home" target="_blank">&copy; Regenere. 2023</a>.
                         </div>
                         <!-- End Copyright -->
 

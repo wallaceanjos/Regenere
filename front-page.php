@@ -206,11 +206,11 @@
                     ?>
                     
                     <div class="grid-md-5 gap-16">
-                        <a href="#" class="h-152 aspect-ratio-1x1 wow fadeInUp" data-wow-duration="0s" style="background:url(<?php echo esc_url($imagem1_url); ?>)no-repeat center center/contain"></a href="#">
-                        <a href="#" class="h-152 aspect-ratio-1x1 wow fadeInUp" data-wow-duration="0.5s" style="background:url(<?php echo esc_url($imagem2_url); ?>)no-repeat center center/contain"></a href="#">
-                        <a href="#" class="h-152 aspect-ratio-1x1 wow fadeInUp" data-wow-duration="1s" style="background:url(<?php echo esc_url($imagem3_url); ?>)no-repeat center center/contain"></a href="#">
-                        <a href="#" class="h-152 aspect-ratio-1x1 wow fadeInUp" data-wow-duration="1.5s" style="background:url(<?php echo esc_url($imagem4_url); ?>)no-repeat center center/contain"></a href="#">
-                        <a href="#" class="h-152 aspect-ratio-1x1 wow fadeInUp" data-wow-duration="2s" style="background:url(<?php echo esc_url($imagem5_url); ?>)no-repeat center center/contain"></a href="#">
+                        <a href="#" class="h-152 ratio-1x1 wow fadeInUp" data-wow-duration="0s" style="background:url(<?php echo esc_url($imagem1_url); ?>)no-repeat center center/cover"></a href="#">
+                        <a href="#" class="h-152 ratio-1x1 wow fadeInUp" data-wow-duration="0.5s" style="background:url(<?php echo esc_url($imagem2_url); ?>)no-repeat center center/cover"></a href="#">
+                        <a href="#" class="h-152 ratio-1x1 wow fadeInUp" data-wow-duration="1s" style="background:url(<?php echo esc_url($imagem3_url); ?>)no-repeat center center/cover"></a href="#">
+                        <a href="#" class="h-152 ratio-1x1 wow fadeInUp" data-wow-duration="1.5s" style="background:url(<?php echo esc_url($imagem4_url); ?>)no-repeat center center/cover"></a href="#">
+                        <a href="#" class="h-152 ratio-1x1 wow fadeInUp" data-wow-duration="2s" style="background:url(<?php echo esc_url($imagem5_url); ?>)no-repeat center center/cover"></a href="#">
                     </div>
                     
                 </div>
@@ -310,32 +310,263 @@
                 </div>
                 
                 <!-- Call Action Section -->
-                <div id="talktome" class="page-section pt-0 pb-0 banner-section bg-dark" data-background="<?php echo esc_url($photo5_url); ?>">
+                <div id="talktome" class="page-section py-64 banner-section bg-dark" data-background="<?php echo esc_url($photo5_url); ?>">
                     <div class="container relative">
 
                         <div class="d-flex-column">
 
-                            <div class="col-sm-6">
+                        <div class="row">
+						<style>
+							/* external css: flickity.css */
 
-                                <div class="mt-140 mt-lg-80 mb-140 mb-lg-80">
-                                    <div class="banner-content">
-                                        <h3 class="banner-heading font-alt">Quer conversar comigo?</h3>
-                                        <div class="banner-decription">
-                                            Estou muito feliz de ter você aqui!<br>
-                                            Gostaria de ficar por dentro de todas as novidades e conteúdos? 
-                                        </div>
-                                        <div class="local-scroll">
-                                            <a href="https://api.whatsapp.com/send?phone=5521971946274" class="btn btn-mod btn-w btn-medium btn-round">Iniciar Whatsapp</a>
-                                        </div>
-                                    </div>
-                                </div>
+							.carousel {
+								background: transparent;
+							}
 
-                            </div>
 
-                            <div class="col-sm-6 banner-image wow fadeInUp" data-wow-duration="1.2s">
-                                <img src="https://portal.josuevalandro.com.br/wp-content/uploads/2023/04/josuevalandrojr.webp" alt="" style="border-radius:12px;" />
-                            </div>
+							.carousel-cell {
+								text-align: center;
+								width: 70%;
+								min-height: 200px;
+								margin-right: 10px;
+								border-radius: 5px;
+								counter-increment: gallery-cell;
+							}
 
+							@media only screen and (max-width:1200px) {
+								.carousel-cell {
+									width: 70%;
+								}
+							}
+
+							@media only screen and (max-width:1024px) {
+								.carousel-cell {
+									width: 70%;
+								}
+							}
+
+							@media only screen and (max-width:768px) {
+								.carousel-cell {
+									width: 70%;
+								}
+							}
+
+							@media only screen and (max-width:767px) {
+								.carousel-cell {
+									width: 70%;
+								}
+							}
+
+							@media only screen and (max-width:480px) {
+								.carousel-cell {
+									width: 70%;
+								}
+							}
+
+
+
+
+							.flickity-prev-next-button {
+								border-radius: 100px;
+							}
+
+							.r-card-icon {
+								background-position: center;
+								background-repeat: no-repeat;
+								height: 60px;
+								min-height: 60px;
+								width: 60px;
+								min-width: 60px;
+							}
+                            
+                            
+							@media (max-width: 767.98px) { 
+								
+							}
+
+						</style>
+
+
+					</div>
+
+					<div class="d-flex-column">
+
+						<!-- Flickity HTML init -->
+						<div class="carousel" data-flickity='{ "adaptiveHeight": true }'>
+							<div class="carousel-cell">
+
+								<div class="text-left primary-bg-200 px-52 py-64" style="border-radius:56px">
+									<div class="d-flex flex-column flex-md-row">
+										<div class="d-flex order-md-0 order-1">
+											<span class="p-0 mt-0 primary-fg-700 fs-48 fw-800"><b>ADORAÇÃO</b></span>
+										</div>
+										<div class="d-flex mx-auto mx-md-0 r-card-icon mb-0 order-md-1 order-0" style="background-image:url('images/adoracao.svg')"></div>
+									</div>
+									
+									<p class="mb-0 lh-40 base-fg-inverse fs-32">Um estilo de vida que reconhece a sublimidade de Deus em tudo o que fizermos.</p>
+									<span class="base-fg-inverse fs-32">1Cor.10:31</span>
+								</div>
+
+							</div>
+							<div class="carousel-cell">
+
+								<div class="text-left primary-bg-200 px-52 py-64" style="border-radius:56px">
+									<div class="d-flex flex-column flex-md-row">
+										<div class="d-flex order-md-0 order-1">
+											<span class="p-0 mt-0 primary-fg-700 fs-48 fw-800"><b>AMOR</b></span>
+										</div>
+										<div class="d-flex mx-auto mx-md-0 r-card-icon mb-0 order-md-1 order-0" style="background-image:url('images/amor.svg')"></div>
+									</div>
+									
+									<p class="mb-0 lh-40 base-fg-inverse fs-32">Aquele que um dia conheceu o amor de Deus, naturalmente ama o seu próximo.</p>
+									<span class="base-fg-inverse fs-32">João 13:34 | João 4:8</span>
+								</div>
+
+							</div>
+							<div class="carousel-cell">
+
+								<div class="text-left primary-bg-200 px-52 py-64" style="border-radius:56px">
+									<div class="d-flex flex-column flex-md-row">
+										<div class="d-flex order-md-0 order-1">
+											<span class="p-0 mt-0 primary-fg-700 fs-48 fw-800"><b>GRAÇA</b></span>
+										</div>
+										<div class="d-flex mx-auto mx-md-0 r-card-icon mb-0 order-md-1 order-0" style="background-image:url('images/graca.svg')"></div>
+									</div>
+									
+									<p class="mb-0 lh-40 base-fg-inverse fs-32">O Sacrifício de Jesus na Cruz é suficiente para perdoar todos os pecados daqueles que
+										tiverem fé.</p>
+									<span class="base-fg-inverse fs-32">Rm 3:24 | Ef 2:8-9</span>
+								</div>
+
+							</div>
+
+							<div class="carousel-cell">
+
+								<div class="text-left primary-bg-200 px-52 py-64" style="border-radius:56px">
+									<div class="d-flex flex-column flex-md-row">
+										<div class="d-flex order-md-0 order-1">
+											<span class="p-0 mt-0 primary-fg-700 fs-48 fw-800"><b>SANTIDADE</b></span>
+										</div>
+										<div class="d-flex mx-auto mx-md-0 r-card-icon mb-0 order-md-1 order-0" style="background-image:url('images/santidade.svg')"></div>
+									</div>
+									
+									<p class="mb-0 lh-40 base-fg-inverse fs-32">Mediante o Espírito Santo que habita em nós, somos levados a viver conforme as
+										escrituras e desenvolver em nós o caráter de Cristo.</p>
+									<span class="base-fg-inverse fs-32">Gal 2:16-21 | Lv 20:26</span>
+								</div>
+
+							</div>
+							<div class="carousel-cell">
+
+								<div class="text-left primary-bg-200 px-52 py-64" style="border-radius:56px">
+									<div class="d-flex flex-column flex-md-row">
+										<div class="d-flex order-md-0 order-1">
+											<span class="p-0 mt-0 primary-fg-700 fs-48 fw-800"><b>RELACIONAMENTO COM DEUS</b></span>
+										</div>
+										<div class="d-flex mx-auto mx-md-0 r-card-icon mb-0 order-md-1 order-0 mt-2"
+											style="background-image:url('images/relacionamento.svg')"></div>
+									</div>
+									
+									<p class="mb-0 lh-40 base-fg-inverse fs-32">O desejo de Deus é se relacionar com o ser humano. Portanto, buscamos uma interação
+										diária com Ele através de oração, jejum e leitura da palavra, a fim de desenvolver mais intimidade
+										com o Criador.</p>
+									<span class="base-fg-inverse fs-32">João 15:15 | Marcos 15:39</span>
+								</div>
+
+							</div>
+							<div class="carousel-cell">
+
+								<div class="text-left primary-bg-200 px-52 py-64" style="border-radius:56px">
+									<div class="d-flex flex-column flex-md-row">
+										<div class="d-flex order-md-0 order-1">
+											<span class="p-0 mt-0 primary-fg-700 fs-48 fw-800"><b>FRATERNIDADE</b></span>
+										</div>
+										<div class="d-flex mx-auto mx-md-0 r-card-icon mb-0 order-md-1 order-0"
+											style="background-image:url('images/fraternidade.svg')"></div>
+									</div>
+									
+									<p class="mb-0 lh-40 base-fg-inverse fs-32">Todos que aceitaram o sacrifício de Jesus se tornaram filhos de Deus e fazem parte da
+										mesma família. Sabendo disso, vivemos uns pelos outros, sendo um só corpo em Cristo.</p>
+									<span class="base-fg-inverse fs-32">Jo 17:21 | Rm 12:10</span>
+								</div>
+
+							</div>
+							<div class="carousel-cell">
+
+								<div class="text-left primary-bg-200 px-52 py-64" style="border-radius:56px">
+									<div class="d-flex flex-column flex-md-row">
+										<div class="d-flex order-md-0 order-1">
+											<span class="p-0 mt-0 primary-fg-700 fs-48 fw-800"><b>MOVER SOBRENATURAL</b></span>
+										</div>
+										<div class="d-flex mx-auto mx-md-0 r-card-icon mb-0 order-md-1 order-0" style="background-image:url('images/mover.svg')">
+										</div>
+									</div>
+									
+									<p class="mb-0 lh-40 base-fg-inverse fs-32">Exercemos a autoridade que Cristo nos deu, por intermédio do Espírito Santo que habita
+										em nós, manifestando o reino de Deus na terra.</p>
+									<span class="base-fg-inverse fs-32">Jo. 14:12 | Mc.16:15-20</span>
+								</div>
+
+							</div>
+							<div class="carousel-cell">
+
+								<div class="text-left primary-bg-200 px-52 py-64" style="border-radius:56px">
+									<div class="d-flex flex-column flex-md-row">
+										<div class="d-flex order-md-0 order-1">
+											<span class="p-0 mt-0 primary-fg-700 fs-48 fw-800"><b>HONRA</b></span>
+										</div>
+										<div class="d-flex mx-auto mx-md-0 r-card-icon mb-0 order-md-1 order-0" style="background-image:url('images/honra.svg')">
+										</div>
+									</div>
+									
+									<p class="mb-0 lh-40 base-fg-inverse fs-32">De acordo com a perspectiva de Deus, valorizamos e respeitamos todas as pessoas. E
+										reconhecemos que toda autoridade é estabelecida por Ele.</p>
+									<span class="base-fg-inverse fs-32">Rm.13:1-2 | 1 Pe.2:17</span>
+								</div>
+
+							</div>
+							<div class="carousel-cell">
+
+								<div class="text-left primary-bg-200 px-52 py-64" style="border-radius:56px">
+									<div class="d-flex flex-column flex-md-row">
+										<div class="d-flex order-md-0 order-1">
+											<span class="p-0 mt-0 primary-fg-700 fs-48 fw-800"><b>EXCELÊNCIA</b></span>
+										</div>
+										<div class="d-flex mx-auto mx-md-0 r-card-icon mb-0 order-md-1 order-0"
+											style="background-image:url('images/excelencia.svg')"></div>
+									</div>
+									
+									<p class="mb-0 lh-40 base-fg-inverse fs-32">Em tudo nós vemos a perfeição e a excelência do Criador. Como imitadores dEle,
+										acreditamos na excelência como uma forma de honrar, adorar e expressar o caráter de Deus em tudo que
+										Ele confia em nossas mãos e em tudo o que fazemos.</p>
+									<span class="base-fg-inverse fs-32">Cl. 3:23 | Mt. 5:16 | Mt. 25:14-28 | Dn. 6:3</span>
+								</div>
+
+							</div>
+							<div class="carousel-cell">
+
+								<div class="text-left primary-bg-200 px-52 py-64" style="border-radius:56px">
+									<div class="d-flex flex-column flex-md-row">
+										<div class="d-flex order-md-0 order-1">
+											<span class="p-0 mt-0 primary-fg-700 fs-48 fw-800"><b>DISCIPULADO</b></span>
+										</div>
+										<div class="d-flex mx-auto mx-md-0 r-card-icon mb-0 order-md-1 order-0"
+											style="background-image:url('images/discipulado.svg')"></div>
+									</div>
+									
+									<p class="mb-0 lh-40 base-fg-inverse fs-32">Cristo nos comissionou ao discipulado, e essa foi a forma que Ele preparou os que
+										vieram depois dEle para levar o Reino de Deus ao mundo. Portanto, o discipulado é a forma como nos
+										capacitamos, uns aos outros, a sermos mais parecidos com Cristo. Nós somos discípulos de Jesus e
+										devemos discipular outros conforme aprendemos com Ele, trazendo conhecimento, maturidade espiritual
+										e um estilo de vida cristão.</p>
+									<span class="base-fg-inverse fs-32">Mt. 28:19 | II Tim. 2:1-2 | I Cor 11:1</span>
+								</div>
+
+							</div>
+						</div>
+
+					</div><!-- /.row -->
+                            
                         </div>
 
                     </div>

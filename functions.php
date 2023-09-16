@@ -249,46 +249,48 @@ function get_breadcrumb() {
     }
 }
 
-function joshua_register_styles(){
+function los_anjos_register_styles(){
     $version = wp_get_theme() -> get('Version');
-    wp_enqueue_style('joshua-style-bootstrap', get_template_directory_uri() . "/assets/css/bootstrap.min.css", array(), $version, 'all');
-    wp_enqueue_style('joshua-style', get_template_directory_uri() . "/assets/css/style.css", array(), $version, 'all');
-    wp_enqueue_style('joshua-style-responsive', get_template_directory_uri() . "/assets/css/style-responsive.css", array(), $version, 'all');
-    wp_enqueue_style('joshua-style-animate', get_template_directory_uri() . "/assets/css/animate.min.css", array(), $version, 'all');
-    wp_enqueue_style('joshua-style-vertical', get_template_directory_uri() . "/assets/css/vertical-rhythm.min.css", array(), $version, 'all');
-    wp_enqueue_style('joshua-style-owl', get_template_directory_uri() . "/assets/css/owl.carousel.css", array(), $version, 'all');
-    wp_enqueue_style('joshua-style-magnific-popup', get_template_directory_uri() . "/assets/css/magnific-popup.css", array(), $version, 'all');
-    wp_enqueue_style('joshua-style-YTPlayer', get_template_directory_uri() . "/assets/css/YTPlayer.css", array(), $version, 'all');
-    wp_enqueue_style('joshua-style-font-awesome', get_template_directory_uri() . "/assets/css/font-awesome.min.css", array(), $version, 'all');
+    wp_enqueue_style('los-anjos-style-flickity', get_template_directory_uri() . "/assets/css/flickity.css", array(), $version, 'all');
+    wp_enqueue_style('los-anjos-style-bootstrap', get_template_directory_uri() . "/assets/css/bootstrap.min.css", array(), $version, 'all');
+    wp_enqueue_style('los-anjos-style', get_template_directory_uri() . "/assets/css/style.css", array(), $version, 'all');
+    wp_enqueue_style('los-anjos-style-responsive', get_template_directory_uri() . "/assets/css/style-responsive.css", array(), $version, 'all');
+    wp_enqueue_style('los-anjos-style-animate', get_template_directory_uri() . "/assets/css/animate.min.css", array(), $version, 'all');
+    wp_enqueue_style('los-anjos-style-vertical', get_template_directory_uri() . "/assets/css/vertical-rhythm.min.css", array(), $version, 'all');
+    wp_enqueue_style('los-anjos-style-owl', get_template_directory_uri() . "/assets/css/owl.carousel.css", array(), $version, 'all');
+    wp_enqueue_style('los-anjos-style-magnific-popup', get_template_directory_uri() . "/assets/css/magnific-popup.css", array(), $version, 'all');
+    wp_enqueue_style('los-anjos-style-YTPlayer', get_template_directory_uri() . "/assets/css/YTPlayer.css", array(), $version, 'all');
+    wp_enqueue_style('los-anjos-style-font-awesome', get_template_directory_uri() . "/assets/css/font-awesome.min.css", array(), $version, 'all');
 }
-add_action('wp_enqueue_scripts', 'joshua_register_styles');
+add_action('wp_enqueue_scripts', 'los_anjos_register_styles');
 
-function joshua_register_scripts(){
+function los_anjos_register_scripts(){
     $version = wp_get_theme() -> get('Version');
-    wp_enqueue_script('joshua-script-jquery', get_template_directory_uri() . "/assets/js/jquery-1.11.2.min.js", array(),'1.11.2', 'all');
-    wp_enqueue_script('joshua-script-jquery-easing', get_template_directory_uri() . "/assets/js/jquery.easing.1.3.js", array(), '1.3', 'all');
-    wp_enqueue_script('joshua-script-bootstrap', get_template_directory_uri() . "/assets/js/bootstrap.min.js", array(), $version, 'all');
-    wp_enqueue_script('joshua-script-SmoothScroll', get_template_directory_uri() . "/assets/js/SmoothScroll.js", array(), $version, 'all');
-    wp_enqueue_script('joshua-script-jquery-scrollTo', get_template_directory_uri() . "/assets/js/jquery.scrollTo.min.js", array(), $version, 'all');
-    wp_enqueue_script('joshua-script-jquery-localScroll', get_template_directory_uri() . "/assets/js/jquery.localScroll.min.js", array(), $version, 'all');
-    wp_enqueue_script('joshua-script-jquery-viewport', get_template_directory_uri() . "/assets/js/jquery.viewport.mini.js", array(), $version, 'all');
-    wp_enqueue_script('joshua-script-jquery-countTo', get_template_directory_uri() . "/assets/js/jquery.countTo.js", array(), $version, 'all');
-    wp_enqueue_script('joshua-script-jquery-appear', get_template_directory_uri() . "/assets/js/jquery.appear.js", array(), $version, 'all');
-    wp_enqueue_script('joshua-script-jquery-sticky', get_template_directory_uri() . "/assets/js/jquery.sticky.js", array(), $version, 'all');
-    wp_enqueue_script('joshua-script-jquery-parallax', get_template_directory_uri() . "/assets/js/jquery.parallax-1.1.3.js", array(), '1.1.3', 'all');
-    wp_enqueue_script('joshua-script-jquery-fitvids', get_template_directory_uri() . "/assets/js/jquery.fitvids.js", array(), $version, 'all');
-    wp_enqueue_script('joshua-script-owl-carousel', get_template_directory_uri() . "/assets/js/owl.carousel.min.js", array(), $version, 'all');
-    wp_enqueue_script('joshua-script-isotope', get_template_directory_uri() . "/assets/js/isotope.pkgd.min.js", array(), $version, 'all');
-    wp_enqueue_script('joshua-script-imagesloaded', get_template_directory_uri() . "/assets/js/imagesloaded.pkgd.min.js", array(), $version, 'all');
-    wp_enqueue_script('joshua-script-jquery-magnific-popup', get_template_directory_uri() . "/assets/js/jquery.magnific-popup.min.js", array(), $version, 'all');
-    wp_enqueue_script('joshua-script-wow', get_template_directory_uri() . "/assets/js/wow.min.js", array(), $version, 'all');
-    wp_enqueue_script('joshua-script-masonry', get_template_directory_uri() . "/assets/js/masonry.pkgd.min.js", array(), $version, 'all');
-    wp_enqueue_script('joshua-script-jquery-simple-text-rotator', get_template_directory_uri() . "/assets/js/jquery.simple-text-rotator.min.js", array(), $version, 'all');
-    wp_enqueue_script('joshua-script-all', get_template_directory_uri() . "/assets/js/all.js", array(), $version, 'all');
-    wp_enqueue_script('joshua-script-contact', get_template_directory_uri() . "/assets/js/contact-form.js", array(), $version, 'all');
-    wp_enqueue_script('joshua-script-jquery-ajaxchimp', get_template_directory_uri() . "/assets/js/jquery.ajaxchimp.min.js", array(), $version, 'all');
-    wp_enqueue_script('joshua-script-jquery-YTPlayer', get_template_directory_uri() . "/assets/js/jquery.mb.YTPlayer.js", array(), $version, 'all');
+    wp_enqueue_script('los-anjos-script-flickity', get_template_directory_uri() . "/assets/js/flickity.pkgd.js", array(),'1.11.2', 'all');
+    wp_enqueue_script('los-anjos-script-jquery', get_template_directory_uri() . "/assets/js/jquery-1.11.2.min.js", array(),'1.11.2', 'all');
+    wp_enqueue_script('los-anjos-script-jquery-easing', get_template_directory_uri() . "/assets/js/jquery.easing.1.3.js", array(), '1.3', 'all');
+    wp_enqueue_script('los-anjos-script-bootstrap', get_template_directory_uri() . "/assets/js/bootstrap.min.js", array(), $version, 'all');
+    wp_enqueue_script('los-anjos-script-SmoothScroll', get_template_directory_uri() . "/assets/js/SmoothScroll.js", array(), $version, 'all');
+    wp_enqueue_script('los-anjos-script-jquery-scrollTo', get_template_directory_uri() . "/assets/js/jquery.scrollTo.min.js", array(), $version, 'all');
+    wp_enqueue_script('los-anjos-script-jquery-localScroll', get_template_directory_uri() . "/assets/js/jquery.localScroll.min.js", array(), $version, 'all');
+    wp_enqueue_script('los-anjos-script-jquery-viewport', get_template_directory_uri() . "/assets/js/jquery.viewport.mini.js", array(), $version, 'all');
+    wp_enqueue_script('los-anjos-script-jquery-countTo', get_template_directory_uri() . "/assets/js/jquery.countTo.js", array(), $version, 'all');
+    wp_enqueue_script('los-anjos-script-jquery-appear', get_template_directory_uri() . "/assets/js/jquery.appear.js", array(), $version, 'all');
+    wp_enqueue_script('los-anjos-script-jquery-sticky', get_template_directory_uri() . "/assets/js/jquery.sticky.js", array(), $version, 'all');
+    wp_enqueue_script('los-anjos-script-jquery-parallax', get_template_directory_uri() . "/assets/js/jquery.parallax-1.1.3.js", array(), '1.1.3', 'all');
+    wp_enqueue_script('los-anjos-script-jquery-fitvids', get_template_directory_uri() . "/assets/js/jquery.fitvids.js", array(), $version, 'all');
+    wp_enqueue_script('los-anjos-script-owl-carousel', get_template_directory_uri() . "/assets/js/owl.carousel.min.js", array(), $version, 'all');
+    wp_enqueue_script('los-anjos-script-isotope', get_template_directory_uri() . "/assets/js/isotope.pkgd.min.js", array(), $version, 'all');
+    wp_enqueue_script('los-anjos-script-imagesloaded', get_template_directory_uri() . "/assets/js/imagesloaded.pkgd.min.js", array(), $version, 'all');
+    wp_enqueue_script('los-anjos-script-jquery-magnific-popup', get_template_directory_uri() . "/assets/js/jquery.magnific-popup.min.js", array(), $version, 'all');
+    wp_enqueue_script('los-anjos-script-wow', get_template_directory_uri() . "/assets/js/wow.min.js", array(), $version, 'all');
+    wp_enqueue_script('los-anjos-script-masonry', get_template_directory_uri() . "/assets/js/masonry.pkgd.min.js", array(), $version, 'all');
+    wp_enqueue_script('los-anjos-script-jquery-simple-text-rotator', get_template_directory_uri() . "/assets/js/jquery.simple-text-rotator.min.js", array(), $version, 'all');
+    wp_enqueue_script('los-anjos-script-all', get_template_directory_uri() . "/assets/js/all.js", array(), $version, 'all');
+    wp_enqueue_script('los-anjos-script-contact', get_template_directory_uri() . "/assets/js/contact-form.js", array(), $version, 'all');
+    wp_enqueue_script('los-anjos-script-jquery-ajaxchimp', get_template_directory_uri() . "/assets/js/jquery.ajaxchimp.min.js", array(), $version, 'all');
+    wp_enqueue_script('los-anjos-script-jquery-YTPlayer', get_template_directory_uri() . "/assets/js/jquery.mb.YTPlayer.js", array(), $version, 'all');
 }
-add_action('wp_enqueue_scripts', 'joshua_register_scripts');
+add_action('wp_enqueue_scripts', 'los_anjos_register_scripts');
 
 ?>
