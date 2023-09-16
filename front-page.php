@@ -311,7 +311,7 @@
                 
                 <!-- Call Action Section -->
                 <div id="talktome" class="page-section py-64 banner-section bg-dark" data-background="<?php echo esc_url($photo5_url); ?>">
-                    <div class="container relative">
+                    <div class="relative">
 
                         <div class="d-flex-column">
 
@@ -398,7 +398,7 @@
 								<div class="text-left primary-bg-200 px-52 py-64" style="border-radius:56px">
 									<div class="d-flex flex-column flex-md-row">
 										<div class="d-flex order-md-0 order-1">
-											<span class="p-0 mt-0 primary-fg-700 fs-48 fw-800"><b>ADORAÇÃO</b></span>
+											<span class="p-0 mt-0 primary-fg-700 fs-48 fw-800"><b>Adoração</b></span>
 										</div>
 										<div class="d-flex mx-auto mx-md-0 r-card-icon mb-0 order-md-1 order-0" style="background-image:url('images/adoracao.svg')"></div>
 									</div>
@@ -413,7 +413,7 @@
 								<div class="text-left primary-bg-200 px-52 py-64" style="border-radius:56px">
 									<div class="d-flex flex-column flex-md-row">
 										<div class="d-flex order-md-0 order-1">
-											<span class="p-0 mt-0 primary-fg-700 fs-48 fw-800"><b>AMOR</b></span>
+											<span class="p-0 mt-0 primary-fg-700 fs-48 fw-800"><b>Amor</b></span>
 										</div>
 										<div class="d-flex mx-auto mx-md-0 r-card-icon mb-0 order-md-1 order-0" style="background-image:url('images/amor.svg')"></div>
 									</div>
@@ -428,7 +428,7 @@
 								<div class="text-left primary-bg-200 px-52 py-64" style="border-radius:56px">
 									<div class="d-flex flex-column flex-md-row">
 										<div class="d-flex order-md-0 order-1">
-											<span class="p-0 mt-0 primary-fg-700 fs-48 fw-800"><b>GRAÇA</b></span>
+											<span class="p-0 mt-0 primary-fg-700 fs-48 fw-800"><b>Graça</b></span>
 										</div>
 										<div class="d-flex mx-auto mx-md-0 r-card-icon mb-0 order-md-1 order-0" style="background-image:url('images/graca.svg')"></div>
 									</div>
@@ -445,7 +445,7 @@
 								<div class="text-left primary-bg-200 px-52 py-64" style="border-radius:56px">
 									<div class="d-flex flex-column flex-md-row">
 										<div class="d-flex order-md-0 order-1">
-											<span class="p-0 mt-0 primary-fg-700 fs-48 fw-800"><b>SANTIDADE</b></span>
+											<span class="p-0 mt-0 primary-fg-700 fs-48 fw-800"><b>Santidade</b></span>
 										</div>
 										<div class="d-flex mx-auto mx-md-0 r-card-icon mb-0 order-md-1 order-0" style="background-image:url('images/santidade.svg')"></div>
 									</div>
@@ -461,7 +461,7 @@
 								<div class="text-left primary-bg-200 px-52 py-64" style="border-radius:56px">
 									<div class="d-flex flex-column flex-md-row">
 										<div class="d-flex order-md-0 order-1">
-											<span class="p-0 mt-0 primary-fg-700 fs-48 fw-800"><b>RELACIONAMENTO COM DEUS</b></span>
+											<span class="p-0 mt-0 primary-fg-700 fs-48 fw-800"><b>Relacionamento com Deus</b></span>
 										</div>
 										<div class="d-flex mx-auto mx-md-0 r-card-icon mb-0 order-md-1 order-0 mt-2"
 											style="background-image:url('images/relacionamento.svg')"></div>
@@ -479,7 +479,7 @@
 								<div class="text-left primary-bg-200 px-52 py-64" style="border-radius:56px">
 									<div class="d-flex flex-column flex-md-row">
 										<div class="d-flex order-md-0 order-1">
-											<span class="p-0 mt-0 primary-fg-700 fs-48 fw-800"><b>FRATERNIDADE</b></span>
+											<span class="p-0 mt-0 primary-fg-700 fs-48 fw-800"><b>Fraternidade</b></span>
 										</div>
 										<div class="d-flex mx-auto mx-md-0 r-card-icon mb-0 order-md-1 order-0"
 											style="background-image:url('images/fraternidade.svg')"></div>
@@ -496,7 +496,7 @@
 								<div class="text-left primary-bg-200 px-52 py-64" style="border-radius:56px">
 									<div class="d-flex flex-column flex-md-row">
 										<div class="d-flex order-md-0 order-1">
-											<span class="p-0 mt-0 primary-fg-700 fs-48 fw-800"><b>MOVER SOBRENATURAL</b></span>
+											<span class="p-0 mt-0 primary-fg-700 fs-48 fw-800"><b>Mover Sobrenatural</b></span>
 										</div>
 										<div class="d-flex mx-auto mx-md-0 r-card-icon mb-0 order-md-1 order-0" style="background-image:url('images/mover.svg')">
 										</div>
@@ -513,7 +513,7 @@
 								<div class="text-left primary-bg-200 px-52 py-64" style="border-radius:56px">
 									<div class="d-flex flex-column flex-md-row">
 										<div class="d-flex order-md-0 order-1">
-											<span class="p-0 mt-0 primary-fg-700 fs-48 fw-800"><b>HONRA</b></span>
+											<span class="p-0 mt-0 primary-fg-700 fs-48 fw-800"><b>Honra</b></span>
 										</div>
 										<div class="d-flex mx-auto mx-md-0 r-card-icon mb-0 order-md-1 order-0" style="background-image:url('images/honra.svg')">
 										</div>
@@ -530,7 +530,7 @@
 								<div class="text-left primary-bg-200 px-52 py-64" style="border-radius:56px">
 									<div class="d-flex flex-column flex-md-row">
 										<div class="d-flex order-md-0 order-1">
-											<span class="p-0 mt-0 primary-fg-700 fs-48 fw-800"><b>EXCELÊNCIA</b></span>
+											<span class="p-0 mt-0 primary-fg-700 fs-48 fw-800"><b>Excelência</b></span>
 										</div>
 										<div class="d-flex mx-auto mx-md-0 r-card-icon mb-0 order-md-1 order-0"
 											style="background-image:url('images/excelencia.svg')"></div>
@@ -548,7 +548,7 @@
 								<div class="text-left primary-bg-200 px-52 py-64" style="border-radius:56px">
 									<div class="d-flex flex-column flex-md-row">
 										<div class="d-flex order-md-0 order-1">
-											<span class="p-0 mt-0 primary-fg-700 fs-48 fw-800"><b>DISCIPULADO</b></span>
+											<span class="p-0 mt-0 primary-fg-700 fs-48 fw-800"><b>Discipulado</b></span>
 										</div>
 										<div class="d-flex mx-auto mx-md-0 r-card-icon mb-0 order-md-1 order-0"
 											style="background-image:url('images/discipulado.svg')"></div>

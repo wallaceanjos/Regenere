@@ -1,5 +1,5 @@
-<!-- Contact Section -->
-<section class="page-section" id="contact">
+            <!-- Contact Section -->
+            <!-- <section class="page-section" id="contact">
                 <div class="container relative">
 
                     <h2 class="section-title font-alt mb-70 mb-sm-40">
@@ -10,8 +10,7 @@
 
                         <div class="col-md-8 col-md-offset-2">
                             <div class="row">
-
-                                <!-- Phone -->
+                                
                                 <div class="col-sm-6 col-lg-4 pt-20 pb-20 pb-xs-0">
                                     <div class="contact-item">
                                         <div class="ci-icon">
@@ -25,9 +24,6 @@
                                         </div>
                                     </div>
                                 </div>
-                                <!-- End Phone -->
-
-                                <!-- Address -->
                                 <div class="col-sm-6 col-lg-4 pt-20 pb-20 pb-xs-0">
                                     <div class="contact-item">
                                         <div class="ci-icon">
@@ -41,9 +37,6 @@
                                         </div>
                                     </div>
                                 </div>
-                                <!-- End Address -->
-
-                                <!-- Email -->
                                 <div class="col-sm-6 col-lg-4 pt-20 pb-20 pb-xs-0">
                                     <div class="contact-item">
                                         <div class="ci-icon">
@@ -57,7 +50,6 @@
                                         </div>
                                     </div>
                                 </div>
-                                <!-- End Email -->
 
                             </div>
                         </div>
@@ -65,12 +57,12 @@
                     </div>
 
                 </div>
-            </section>
+            </section> -->
             <!-- End Contact Section -->
 
 
             <!-- Google Map -->
-            <div class="google-map">
+            <!-- <div class="google-map">
 
                 <a href="#" class="map-section">
 
@@ -87,7 +79,7 @@
                 </a>
                 <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3567.899775966!2d-43.43454450414234!3d-23.007347043991615!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9bdcea0431dc37%3A0xe9f9682b65baee8d!2sIgreja%20Batista%20Atitude!5e0!3m2!1spt-BR!2sbr!4v1572920930161!5m2!1spt-BR!2sbr" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
 
-            </div>
+            </div> -->
             <!-- End Google Map -->
 
 
