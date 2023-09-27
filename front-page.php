@@ -655,17 +655,17 @@
                         </div>
                         <div class="d-flex-column d-flex-center-center pt-64">
                             <div class="d-flex gap-24">
-                                <a class="primary-bg-500 decoration-none border-radius-8 overflow-hidden" href="http://" target="_blank" rel="noopener noreferrer">
+                                <a class="primary-bg-500 decoration-none border-radius-8 overflow-hidden" href="https://wa.me/+5511971813078" target="_blank" rel="noopener noreferrer">
                                     <div class="d-flex-center-center w-56 h-56">
                                         <i class="fa fa-whatsapp fs-28 base-fg-inverse"></i>
                                     </div>
                                 </a>
-                                <a class="primary-bg-500 decoration-none border-radius-8 overflow-hidden" href="http://" target="_blank" rel="noopener noreferrer">
+                                <a class="primary-bg-500 decoration-none border-radius-8 overflow-hidden" href="https://t.me/joinchat/JaAWnqwBgXU2NGMx" target="_blank" rel="noopener noreferrer">
                                     <div class="d-flex-center-center w-56 h-56">
                                         <i class="fa fa-paper-plane fs-24 base-fg-inverse"></i>
                                     </div>
                                 </a>
-                                <a class="primary-bg-500 decoration-none border-radius-8 overflow-hidden" href="http://" target="_blank" rel="noopener noreferrer">
+                                <a class="primary-bg-500 decoration-none border-radius-8 overflow-hidden" href="mailto:contatoregenere@ipda.com.br" target="_blank" rel="noopener noreferrer">
                                     <div class="px-16">
                                         <span class="base-fg-inverse fs-24 lh-56">Ou nos mande uma mensagem</span>
                                     </div>
@@ -676,82 +676,6 @@
                 </section>
                 <!-- End contact Section -->
                 
-                <section id="contato" class="r-section-8 page-section secondary-section">
-				<div class="container py-5">
-
-					<h2 class="pb-5 text-center text-white">Entre em contato conosco</h2>
-					<div class="row">
-						<div class="col-sm-8 mx-auto">
-							<div class="row">
-								<div class="col-sm-6 text-center">
-									<div class="contact-email clearfix">
-										<h4 class="font-face1 h6 mb-20 text-center white-color">Endereço</h4>
-										<img src="images/place.svg" alt="Endereço" style="margin: 20px;">
-										<p class="gray-color mt-20 mb-0">Av. do Estado 4568<br>São Paulo, SP<br>CEP: 01517-020</p>
-									</div>
-								</div>
-								<div class="col-sm-6 text-center">
-									<div class="contact-email clearfix">
-										<h4 class="font-face1 h6 mb-20 text-center white-color">Contatos</h4>
-										<img src="images/phone.svg" alt="" style="margin: 20px;">
-										<p class="gray-color mt-20 mb-0">Atendimento<br>+55 (11) 3347-4700<br><a
-												href="mailto:contatoregenere@ipda.com.br" class="text-white">contatoregenere@ipda.com.br</a></p>
-									</div>
-								</div>
-							</div>
-						</div>
-					</div>
-					<div class="row">
-						<div class="col-sm-6 mx-auto mt-140 mt-md-100 mt-sm-80 text-center">
-							<p class="m-2 white-color pt-5">Estamos no Whatsapp e no Telegram</p>
-							<a href="https://wa.me/+5511971813078" class="btn btn-primary btn-regenere-primary my-3"
-								target="_blank"><img src="images/whatsapp.svg" alt="WhatsApp Regenere"></a>
-							<a href="https://t.me/joinchat/JaAWnqwBgXU2NGMx" class="btn btn-primary btn-regenere-primary my-3"
-								target="_blank"><img src="images/telegram.svg" alt="Telegram Regenere"></a>
-							<hr>
-							<a class="btn btn-primary btn-regenere-primary my-3 openContact_Form" href="javascript:void(0)">Ou
-								escreva-nos uma mensagem</a>
-						</div>
-					</div>
-				</div>
-				<div class="contact-form-overlay secondary-variant-section">
-					<div class="table-content">
-						<div class="table-center-text">
-							<div class="contact-form-wrapper">
-								<form autocomplete="off" id="c_form" class="form">
-									<div class="clearfix">
-										<!-- Name -->
-										<div class="form-group">
-											<input type="text" required="" pattern=".{3,100}" placeholder="Nome" class="full_width" id="name"
-												name="name">
-										</div>
-										<!-- Email -->
-										<div class="form-group">
-											<input type="email" required="" pattern=".{5,100}" placeholder="Email" class="full_width"
-												id="email" name="email">
-										</div>
-										<!-- Message -->
-										<div class="form-group">
-											<textarea placeholder="Mensagem" rows="6" cols="5" class="full_width" id="message"
-												name="message"></textarea>
-										</div>
-									</div>
-									<div class="clearfix">
-										<div class="mt-30 text-center">
-											<button id="submit_btn" class="btn btn-primary btn-regenere-primary my-3"><i
-													class="lnr lnr-location"></i></button>
-											<button id="close_btn" class="closeContact_Form btn btn-primary btn-regenere-primary my-3"><i
-													class="lnr lnr-cross"></i></button>
-										</div>
-									</div>
-
-								</form>
-								<div id="result"></div>
-							</div>
-						</div>
-					</div>
-				</div>
-			</section>
             
             
             
