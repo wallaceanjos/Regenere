@@ -32,6 +32,14 @@
         </div>
         <!-- End Page Loader -->
 
+        <!-- Assets -->
+        <?php
+            $social_1 = get_template_directory_uri() . '/assets/images/icons/social-1.png';
+            $social_2 = get_template_directory_uri() . '/assets/images/icons/social-2.png';
+            $social_3 = get_template_directory_uri() . '/assets/images/icons/social-3.png';
+        ?>
+        <!-- Assets -->
+            
         <!-- Page Wrap -->
         <div class="page" id="top">
         <?php if (is_home() || is_page() && !is_page('home')) {} ?>
@@ -58,11 +66,10 @@
                         ?>
                             <!-- Social Links -->
                         <ul  class="clearlist scroll-nav local-scroll social-bar">
-                            <li class="d-flex">
-                                <a href="https://instagram.com/josuevalandrojr/" target="blank"><span class="mn-soc-link tooltip-bot" title="Instagram"><i class="fa fa-instagram"></i></span></a>
-                                <a href="https://youtube.com/PRJOSUEVALANDROJR" target="blank"><span class="mn-soc-link tooltip-bot" title="YouTube"><i class="fa fa-youtube"></i></span></a>
-                                <a href="https://facebook.com/prjosuevalandrojr/" target="blank"><span class="mn-soc-link tooltip-bot" title="Facebook"><i class="fa fa-facebook"></i></span></a>
-                                <a href="https://twitter.com/pastorjosue" target="blank"><span class="mn-soc-link tooltip-bot" title="Twitter"><i class="fa fa-twitter"></i></span></a>
+                            <li class="d-flex gap-16">
+                                <a href="https://www.youtube.com/@MinisterioRegenere" target="blank"><img src="<?php echo esc_url($social_1); ?>" alt=""></a>
+                                <a href="https://www.instagram.com/ministerioregenere/" target="blank"><img src="<?php echo esc_url($social_2); ?>" alt=""></a>
+                                <a href="https://www.facebook.com/ministerioregenere/" target="blank"><img src="<?php echo esc_url($social_3); ?>" alt=""></a>
                             </li>
                             <!-- End Social Links  -->
                         </ul>
@@ -73,61 +80,35 @@
             <?php } else { ?>
 
             <!-- Navigation panel -->
-            <nav class="main-nav js-stick">
+            <nav class="main-nav dark stick-fixed">
                 <div class="full-wrapper relative clearfix">
                     <!-- Logo ( * your text or image into link tag *) -->
                     <div class="nav-logo-wrap local-scroll">
-                        <a href="https://portal.josuevalandro.com.br/#home" class="logo">
-                            <?php
-                                $image = get_page_by_title( 'logo-dark', OBJECT, 'attachment' );
-                                if ( $image ) {
-                                    $image_url = wp_get_attachment_url( $image->ID );
-                                    echo '<img src="' . $image_url . '" alt="Descrição da imagem">';
-                                }
-                            ?>
+                        <a href="#top" class="logo">
+                        <?php
+                            wpdev_filter_login_head();
+                        ?>
                         </a>
                     </div>
                     <div class="mobile-nav">
                         <i class="fa fa-bars"></i>
                     </div>
-                    
                     <!-- Main Menu -->
                     <div class="inner-nav desktop-nav">
-                        <?php // exibe o menu com link y
-                            wp_nav_menu( array( 'menu' => '3', 'menu_class' => 'menu' ) );
+                        <?php
+                            // exibe o menu com link x
+                            wp_nav_menu( array( 'menu' => '2', 'menu_class' => 'menu' ) );
                         ?>
-                        <ul class="clearlist">
-                            
-                            <!-- Divider -->
-                            <li><a>&nbsp;</a></li>
-                            <!-- End Divider -->
-                            
-                            <!-- Search -->
-                            <li>
-                                <a href="#" class="mn-has-sub"><i class="fa fa-search"></i> Pesquisa</a>
-                                
-                                <ul class="mn-sub">
-                                    
-                                    <li>
-                                        <div class="mn-wrap">
-                                            <?php
-                                                get_template_part('template-parts/content', 'search');
-                                            ?>
-                                        </div>
-                                    </li>
-                                    
-                                </ul>
-                                
+                            <!-- Social Links -->
+                        <ul  class="clearlist scroll-nav local-scroll social-bar">
+                            <li class="d-flex gap-16">
+                                <a href="https://www.youtube.com/@MinisterioRegenere" target="blank"><img src="<?php echo esc_url($social_1); ?>" alt=""></a>
+                                <a href="https://www.instagram.com/ministerioregenere/" target="blank"><img src="<?php echo esc_url($social_2); ?>" alt=""></a>
+                                <a href="https://www.facebook.com/ministerioregenere/" target="blank"><img src="<?php echo esc_url($social_3); ?>" alt=""></a>
                             </li>
-                            <!-- End Search -->
-                            
-                            
-                            
+                            <!-- End Social Links  -->
                         </ul>
                     </div>
-                    <!-- End Main Menu -->
-                    
-
                 </div>
             </nav>
             <!-- End Navigation panel -->

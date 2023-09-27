@@ -4127,7 +4127,7 @@ a.logo:hover{
     font-size: 12px;   
 }
 .footer a{
-    color: #888;
+    color: #fff;
     text-decoration: none;
     
     -webkit-transition: all 0.27s cubic-bezier(0.300, 0.100, 0.580, 1.000);  
@@ -4146,7 +4146,7 @@ a.logo:hover{
 }
 .footer-made{
     font-size: 11px;
-    color: #999;
+    color: #fff;
 }
 
 
@@ -6566,6 +6566,10 @@ section:hover .small-item-carousel .owl-next{
     .multi-columns-row .col-lg-1:nth-child(12n + 13) { clear: left; }
 }
 
+.sponsor p{
+    margin: 0 0 0 0;
+}
+
 
 /* ==============================
     Custom classes
@@ -6578,7 +6582,7 @@ section:hover .small-item-carousel .owl-next{
 .relative{position:relative;}
 .hidden{display:none;}
 .inline-block{display:inline-block;}
-.a-button{text-decoration:none !important;}
+.decoration-none{text-decoration:none !important;}
 .white{ color: #fff !important;}
 .black{color:#000 !important;}
 
@@ -6614,6 +6618,22 @@ section:hover .small-item-carousel .owl-next{
 .cta-button:hover{
     box-shadow: 0px 0px 20px -10px #CEF955;
     transform: scale(0.98);
+}
+
+.outlined-section {
+    width: 100%;
+    height: calc(100% + 200px);
+    background: transparent;
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: stretch;
+    z-index: 1;
+    border-radius: 0 90px 90px 0;
+    pointer-events: none;
+    box-shadow: 0px 0px 0px 4px inset #cef955;
+    transform: translate(-60px, -100px);
 }
 
 .card{

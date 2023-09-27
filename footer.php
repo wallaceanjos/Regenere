@@ -103,12 +103,12 @@
                     <div class="footer-text">
 
                         <!-- Copyright -->
-                        <div class="footer-copy font-alt">
+                        <div class="base-fg-inverse fs-12">
                             <a href="#home" target="_blank">&copy; Regenere. 2023</a>.
                         </div>
                         <!-- End Copyright -->
 
-                        <div class="footer-made">
+                        <div class="base-fg-inverse fs-12">
                             Com amor.
                         </div>
 
