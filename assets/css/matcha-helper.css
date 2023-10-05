@@ -2630,6 +2630,18 @@
     font-size: 72px !important
 }
 
+@media only screen and (min-width:600px){
+    .font-size-md-32,
+    .fs-sm-32{
+        font-size: 32px !important;
+    }
+    
+    .font-size-md-64,
+    .fs-sm-64{
+        font-size: 64px !important;
+    }
+}
+
 /*
 -----------------------------------------------------------------------------------------------------
 @ Line Height

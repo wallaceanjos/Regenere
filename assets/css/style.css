@@ -202,7 +202,7 @@ html, body{
     top: 0;
     left: 0;
     background: #fff url(../images/loader.gif) no-repeat center center;
-    z-index: 100000;    
+    z-index: 100000;
 }
 
 .mask-delay{
@@ -252,7 +252,7 @@ img:not([draggable]), embed, object, video{
     position: fixed;
     top: 0;
     left: 0;
-    background: #62449A;
+    background: #62449A33;
     z-index: 100000;
 }
 
@@ -1735,7 +1735,6 @@ a.logo:hover{
     position: relative;
     overflow-x: hidden;
     padding: 0;
-    border-radius: 0 0 16px 16px;
 }
 .mobile-on .desktop-nav > ul{
     overflow-y: auto;
@@ -1758,7 +1757,7 @@ a.logo:hover{
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
     box-sizing: border-box;
-    padding: 0 10px;
+    padding: 0 24px;
     text-align: left;
     border-left: none;
     border-right: none;
@@ -2354,6 +2353,13 @@ a.logo:hover{
 .fm-social-links > a:hover{
     border-color: rgba(255,255,255, .3);
     color: #999;
+}
+
+.social-bar{
+    border-radius: 0 0 16px 16px;
+}
+.social-bar li a{
+    width:auto !important;
 }
 
 
@@ -6648,4 +6654,5 @@ section:hover .small-item-carousel .owl-next{
     aspect-ratio: 1/1;
 }
 .radius-16{ border-radius:16px; }
-.glass{ opacity: .5; };
+.glass{ opacity: .5 };
+

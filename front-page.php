@@ -167,7 +167,7 @@
                                 <h2 class="grid-md-2">
                                     <div></div>
                                     <div class="text-left px-32 pr-md-64">
-                                        <span class="text-rotate fs-64 fw-800 uppercase wow fadeInUp" data-wow-duration="2s">
+                                        <span class="text-rotate fs-42 fs-sm-64 fw-800 uppercase wow fadeInUp" data-wow-duration="2s">
                                             Se esta obra for de
                                             homens, acabará,
                                             mas se for de Deus,
@@ -229,11 +229,21 @@
                         
                         
                         <div class="grid-md-5 gap-16">
-                            <a href="speakers/" class="h-152 ratio-1x1 wow fadeInUp" data-wow-duration="0s" style="background:url(<?php echo esc_url($imagem1_url); ?>)no-repeat center center/cover"></a>
-                            <a href="intercessores/" class="h-152 ratio-1x1 wow fadeInUp" data-wow-duration="0.5s" style="background:url(<?php echo esc_url($imagem2_url); ?>)no-repeat center center/cover"></a>
-                            <a href="up/" class="h-152 ratio-1x1 wow fadeInUp" data-wow-duration="1s" style="background:url(<?php echo esc_url($imagem3_url); ?>)no-repeat center center/cover"></a>
-                            <a href="multimidia/" class="h-152 ratio-1x1 wow fadeInUp" data-wow-duration="1.5s" style="background:url(<?php echo esc_url($imagem4_url); ?>)no-repeat center center/cover"></a>
-                            <a href="rgnrmusic/" class="h-152 ratio-1x1 wow fadeInUp" data-wow-duration="2s" style="background:url(<?php echo esc_url($imagem5_url); ?>)no-repeat center center/cover"></a>
+                            <div class="d-flex-column d-flex-center-center">
+                                <a href="speakers/" class="h-152 ratio-1x1 wow fadeInUp" data-wow-duration="0s" style="background:url(<?php echo esc_url($imagem1_url); ?>)no-repeat center center/cover"></a>
+                            </div>
+                            <div class="d-flex-column d-flex-center-center">
+                                <a href="intercessores/" class="h-152 ratio-1x1 wow fadeInUp" data-wow-duration="0.5s" style="background:url(<?php echo esc_url($imagem2_url); ?>)no-repeat center center/cover"></a>
+                            </div>
+                            <div class="d-flex-column d-flex-center-center">
+                                <a href="up/" class="h-152 ratio-1x1 wow fadeInUp" data-wow-duration="1s" style="background:url(<?php echo esc_url($imagem3_url); ?>)no-repeat center center/cover"></a>
+                            </div>
+                            <div class="d-flex-column d-flex-center-center">
+                                <a href="multimidia/" class="h-152 ratio-1x1 wow fadeInUp" data-wow-duration="1.5s" style="background:url(<?php echo esc_url($imagem4_url); ?>)no-repeat center center/cover"></a>
+                            </div>
+                            <div class="d-flex-column d-flex-center-center">
+                                <a href="rgnrmusic/" class="h-152 ratio-1x1 wow fadeInUp" data-wow-duration="2s" style="background:url(<?php echo esc_url($imagem5_url); ?>)no-repeat center center/cover"></a>
+                            </div>
                         </div>
                         
                     </div>
@@ -241,7 +251,7 @@
                 <!-- End Section -->
                 
                 <div class="d-flex-column d-flex-center-center">
-                    <a href="https://forms.monday.com/forms/5747da5c71c35af26d9de8ea0b455c62" class="cta-button uppercase fs-32 fw-800 mt--40 accent-bg py-16 px-48 base-fg" style="z-index:1;" target="_blank">quero fazer parte!</a>
+                    <a href="https://forms.monday.com/forms/5747da5c71c35af26d9de8ea0b455c62" class="cta-button uppercase fs-16 fs-sm-32 fw-800 mt--40 accent-bg py-16 px-48 base-fg" style="z-index:1;" target="_blank">quero fazer parte!</a>
                 </div>
 
                 <!-- About Section -->
@@ -253,10 +263,10 @@
                             <div class="grid-md-2 gap-24">
                                 
                                 <div class="d-flex position-relative mb-64">
-                                    <svg class="understroke wow fadeIn max-w-48 w-48 min-48" width="38" height="462" viewBox="0 0 38 462" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <svg class="understroke d-none d-flex-sm wow fadeIn max-w-48 w-48 min-48" width="38" height="462" viewBox="0 0 38 462" fill="none" xmlns="http://www.w3.org/2000/svg">
                                         <path d="M28.5297 2C22.8297 2.19 17.3097 4.16 11.6097 4.59C8.2097 4.85 2.6697 4.22 2.2197 9.06C1.5797 16.06 2.5497 23.52 2.7297 30.53C3.3597 54.36 3.9897 78.19 4.6197 102.02C6.5097 173.72 8.3997 245.41 10.2897 317.11C11.5297 363.98 13.9997 457.72 13.9997 457.72L14.0197 459.05L14.7097 459.58C21.6897 459.16 28.3597 457.72 35.2597 457.3" stroke="#8C69CC" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
                                     </svg>
-                                    <span class="fw-700 fs-32 base-fg lh-32 ml--16 mr-16 pt-12" style="transform: rotateZ(-2deg); max-width: 500px;">
+                                    <span class="fw-700 fs-32 base-fg lh-32 pl-16 pl-sm-0 ml-sm--16 mr-16 pt-12" style="transform: rotateZ(-2deg); max-width: 500px;">
                                         Somos os jovens da sede mundial da Igreja Deus é Amor. Usamos uma linguagem atual para alcançar os jovens do século 21 com o Evangelho genuíno de Cristo. Tendo a Bíblia como base de vida, entendemos que apenas através da regeneração (novo nascimento) pelo Espírito Santo podemos entrar no Reino de Deus e manifestá-lo na terra.
                                     </span>
                                 </div>
@@ -585,7 +595,7 @@
                 <section class="d-flex-column pt-100 pb-0">
                     <div class="container relative">
                         <div class="d-flex-column d-flex-center-center">
-                            <a href="https://forms.monday.com/forms/5747da5c71c35af26d9de8ea0b455c62" class="cta-button uppercase fs-32 fw-800 mt--40 accent-bg py-16 px-48 base-fg" style="z-index:1;" target="_blank">quero fazer parte!</a>
+                        <a href="https://forms.monday.com/forms/5747da5c71c35af26d9de8ea0b455c62" class="cta-button uppercase fs-16 fs-sm-32 fw-800 mt--40 accent-bg py-16 px-48 base-fg" style="z-index:1;" target="_blank">quero fazer parte!</a>
                         </div>
                     </div>
                 </section>
@@ -628,24 +638,24 @@
                 <section class="page-section primary-bg-200" id="contact">
                     <div class="container relative">
                         <h2 class="mb-64 mt-64 d-flex-column d-flex-center-center">
-                            <span class="uppercase fw-700 fs-40 base-fg-inverse">Entre em contato conosco</span>
+                            <span class="uppercase fw-700 fs-40 base-fg-inverse text-center">Entre em contato conosco</span>
                             <div class="d-flex-column">
                                 <svg class="understroke wow fadeIn mt--12" width="283" height="18" viewBox="0 0 283 18" fill="none" xmlns="http://www.w3.org/2000/svg">
                                     <path d="M4 14C14.321 14 23.8554 11.1914 34 11C44.0498 10.8104 53.7539 9.91089 63.7778 9.22222C75.9107 8.38866 88.4139 8 100.556 8C114.622 8 128.444 6 142.444 6C168.079 6 193.756 5 219.444 5C233.963 5 248.481 5 263 5C265.893 5 277.637 6.72636 279 4" stroke="#CEF955" stroke-width="8" stroke-linecap="round"/>
                                 </svg>
                             </div>
                         </h2>
-                        <div class="grid-md-2">
-                            <div class="d-flex">
-                                <div class="w-100 h-100 mr-24" style="background:url(<?php echo esc_url($footer_icon_1); ?>)no-repeat center center/cover"></div>
+                        <div class="grid-md-2 gap-24">
+                            <div class="d-flex gap-24">
+                                <div class="w-80 h-80 w-sm-100 h-sm-100" style="background:url(<?php echo esc_url($footer_icon_1); ?>)no-repeat center center/cover"></div>
                                 <div class="d-flex-column pl-10">
                                     <span class="base-fg-inverse fs-24">Av. do Estado 4568</span>
                                     <span class="base-fg-inverse fs-24">São Paulo, SP</span>
                                     <span class="base-fg-inverse fs-24">CEP: 01517-020</span>
                                 </div>
                             </div>
-                            <div class="d-flex">
-                                <div class="w-100 h-100 mr-24" style="background:url(<?php echo esc_url($footer_icon_2); ?>)no-repeat center center/cover"></div>
+                            <div class="d-flex gap-24">
+                                <div class="w-80 h-80 w-sm-100 h-sm-100" style="background:url(<?php echo esc_url($footer_icon_2); ?>)no-repeat center center/cover"></div>
                                 <div class="d-flex-column pl-10">
                                     <span class="base-fg-inverse fs-24">Atendimento</span>
                                     <span class="base-fg-inverse fs-24">+55 (11) 3347-4700</span>
@@ -654,13 +664,14 @@
                             </div>
                         </div>
                         <div class="d-flex-column d-flex-center-center pt-64">
-                            <div class="d-flex gap-24">
-                                <a class="primary-bg-500 decoration-none border-radius-8 overflow-hidden" href="https://wa.me/+5511971813078" target="_blank" rel="noopener noreferrer">
+                            <div class="d-flex d-flex-center-center d-flex-column d-flex-sm-row gap-24">
+                                
+                                <a class="d-flex-center-center w-56 h-56 primary-bg-500 decoration-none border-radius-8 overflow-hidden" href="https://wa.me/+5511971813078" target="_blank" rel="noopener noreferrer">
                                     <div class="d-flex-center-center w-56 h-56">
                                         <i class="fa fa-whatsapp fs-28 base-fg-inverse"></i>
                                     </div>
                                 </a>
-                                <a class="primary-bg-500 decoration-none border-radius-8 overflow-hidden" href="https://t.me/joinchat/JaAWnqwBgXU2NGMx" target="_blank" rel="noopener noreferrer">
+                                <a class="d-flex-center-center w-56 h-56 primary-bg-500 decoration-none border-radius-8 overflow-hidden" href="https://t.me/joinchat/JaAWnqwBgXU2NGMx" target="_blank" rel="noopener noreferrer">
                                     <div class="d-flex-center-center w-56 h-56">
                                         <i class="fa fa-paper-plane fs-24 base-fg-inverse"></i>
                                     </div>
