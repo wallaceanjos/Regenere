@@ -252,7 +252,7 @@ img:not([draggable]), embed, object, video{
     position: fixed;
     top: 0;
     left: 0;
-    background: #62449A33;
+    background: #3D1F7C;
     z-index: 100000;
 }
 
@@ -6656,3 +6656,22 @@ section:hover .small-item-carousel .owl-next{
 .radius-16{ border-radius:16px; }
 .glass{ opacity: .5 };
 
+@media (min-width: 768px) {
+    .fs-sm-48{
+        font-size: 48px;
+    }
+}
+@media (min-width: 992px) {
+    .fs-md-48{
+        font-size: 48px;
+    }
+    .fs-md-32{
+        font-size: 32px;
+    }
+}
+@media (min-width: 1200px) {}
+
+.flickity-prev-next-button {
+    top: 0 !important;
+    margin-top: 150px !important;
+}

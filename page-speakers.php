@@ -2,15 +2,15 @@
     get_header();
 ?>
 <?php
-    // Obtém o ID da página "multimidia" pelo seu título
-    $multimidia_page = get_page_by_title('Multimidia');
-    $logo_sponsor = get_template_directory_uri() . '/assets/images/sponsor/multimidia.png';
+    // Obtém o ID da página "speakers" pelo seu título
+    $speakers_page = get_page_by_title('Speakers');
+    $logo_sponsor = get_template_directory_uri() . '/assets/images/sponsor/speakers.png';
 
-    if ($multimidia_page) {
+    if ($speakers_page) {
         // Obtém o conteúdo da página
-        $multimidia_content = apply_filters('the_content', $multimidia_page->post_content);
+        $speakers_content = apply_filters('the_content', $speakers_page->post_content);
     } else {
-        $multimidia_content = 'Página não encontrada.';
+        $speakers_content = 'Página não encontrada.';
     }
 ?>
 <section class="page-section d-flex-column">
@@ -22,7 +22,7 @@
             <div class="fw-700 fs-24 base-fg lh-32 sponsor d-flex-center-center">
                 <p class="m-0">
                     <?php
-                        echo $multimidia_content;
+                        echo $speakers_content;
                     ?>
                 </p>
             </div>

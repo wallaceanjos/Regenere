@@ -171,9 +171,7 @@
                                             Se esta obra for de
                                             homens, acabará,
                                             mas se for de Deus,
-                                            ninguém impedirá!|
-                                            Não é sobre nós,
-                                            mas sobre quem Ele é!
+                                            ninguém impedirá!
                                         </span>
                                     </div>
                                 </h2>
@@ -375,7 +373,7 @@
                                 }
                             }
                             .flickity-page-dots{
-                                bottom:-50px;
+                                transform: translate(0px, 50px);
                             }
                             .flickity-page-dots .dot {
                                 background: #ae8ceb
@@ -409,173 +407,173 @@
                                     <div class="carousel" data-flickity='{ "adaptiveHeight": true }'>
                                         <div class="carousel-cell">
 
-                                            <div class="text-left primary-bg-200 px-52 py-64" style="border-radius:56px; overflow: auto; height: inherit;; overflow: auto; height: inherit;">
+                                            <div class="text-left primary-bg-200 px-24 py-24 px-md-52 py-md-64" style="border-radius:56px; overflow: auto; height: inherit;; overflow: auto; height: inherit;">
                                                 <div class="d-flex flex-column flex-md-row">
                                                     <div class="d-flex order-md-0 order-1">
-                                                        <span class="p-0 mt-0 primary-fg-700 fs-48 fw-800"><b>Adoração</b></span>
+                                                        <span class="p-0 mt-0 primary-fg-700 fs-28 fs-md-48 fw-800"><b>Adoração</b></span>
                                                     </div>
                                                     <div class="d-flex mx-auto mx-md-0 r-card-icon mb-0 order-md-1 order-0" style="background-image:url('images/adoracao.svg')"></div>
                                                 </div>
                                                 
-                                                <p class="mb-0 lh-40 base-fg-inverse fs-32">Um estilo de vida que reconhece a sublimidade de Deus em tudo o que fizermos.</p>
-                                                <span class="base-fg-inverse fs-32">1Cor.10:31</span>
+                                                <p class="mb-0 lh-40 base-fg-inverse fs-24 fs-md-32">Um estilo de vida que reconhece a sublimidade de Deus em tudo o que fizermos.</p>
+                                                <span class="base-fg-inverse fs-24 fs-md-32">1Cor.10:31</span>
                                             </div>
 
                                         </div>
                                         
                                         <div class="carousel-cell">
 
-                                            <div class="text-left primary-bg-200 px-52 py-64" style="border-radius:56px; overflow: auto; height: inherit;">
+                                            <div class="text-left primary-bg-200 px-24 py-24 px-md-52 py-md-64" style="border-radius:56px; overflow: auto; height: inherit;">
                                                 <div class="d-flex flex-column flex-md-row">
                                                     <div class="d-flex order-md-0 order-1">
-                                                        <span class="p-0 mt-0 primary-fg-700 fs-48 fw-800"><b>Amor</b></span>
+                                                        <span class="p-0 mt-0 primary-fg-700 fs-28 fs-28 fs-md-48 fw-800"><b>Amor</b></span>
                                                     </div>
                                                     <div class="d-flex mx-auto mx-md-0 r-card-icon mb-0 order-md-1 order-0" style="background-image:url('images/amor.svg')"></div>
                                                 </div>
                                                 
-                                                <p class="mb-0 lh-40 base-fg-inverse fs-32">Aquele que um dia conheceu o amor de Deus, naturalmente ama o seu próximo.</p>
-                                                <span class="base-fg-inverse fs-32">João 13:34 | João 4:8</span>
+                                                <p class="mb-0 lh-40 base-fg-inverse fs-24 fs-md-32">Aquele que um dia conheceu o amor de Deus, naturalmente ama o seu próximo.</p>
+                                                <span class="base-fg-inverse fs-24 fs-md-32">João 13:34 | João 4:8</span>
                                             </div>
 
                                         </div>
                                         
                                         <div class="carousel-cell">
 
-                                            <div class="text-left primary-bg-200 px-52 py-64" style="border-radius:56px; overflow: auto; height: inherit;">
+                                            <div class="text-left primary-bg-200 px-24 py-24 px-md-52 py-md-64" style="border-radius:56px; overflow: auto; height: inherit;">
                                                 <div class="d-flex flex-column flex-md-row">
                                                     <div class="d-flex order-md-0 order-1">
-                                                        <span class="p-0 mt-0 primary-fg-700 fs-48 fw-800"><b>Graça</b></span>
+                                                        <span class="p-0 mt-0 primary-fg-700 fs-28 fs-md-48 fw-800"><b>Graça</b></span>
                                                     </div>
                                                     <div class="d-flex mx-auto mx-md-0 r-card-icon mb-0 order-md-1 order-0" style="background-image:url('images/graca.svg')"></div>
                                                 </div>
                                                 
-                                                <p class="mb-0 lh-40 base-fg-inverse fs-32">O Sacrifício de Jesus na Cruz é suficiente para perdoar todos os pecados daqueles que
+                                                <p class="mb-0 lh-40 base-fg-inverse fs-24 fs-md-32">O Sacrifício de Jesus na Cruz é suficiente para perdoar todos os pecados daqueles que
                                                     tiverem fé.</p>
-                                                <span class="base-fg-inverse fs-32">Rm 3:24 | Ef 2:8-9</span>
+                                                <span class="base-fg-inverse fs-24 fs-md-32">Rm 3:24 | Ef 2:8-9</span>
                                             </div>
 
                                         </div>
 
                                         <div class="carousel-cell">
 
-                                            <div class="text-left primary-bg-200 px-52 py-64" style="border-radius:56px; overflow: auto; height: inherit;">
+                                            <div class="text-left primary-bg-200 px-24 py-24 px-md-52 py-md-64" style="border-radius:56px; overflow: auto; height: inherit;">
                                                 <div class="d-flex flex-column flex-md-row">
                                                     <div class="d-flex order-md-0 order-1">
-                                                        <span class="p-0 mt-0 primary-fg-700 fs-48 fw-800"><b>Santidade</b></span>
+                                                        <span class="p-0 mt-0 primary-fg-700 fs-28 fs-md-48 fw-800"><b>Santidade</b></span>
                                                     </div>
                                                     <div class="d-flex mx-auto mx-md-0 r-card-icon mb-0 order-md-1 order-0" style="background-image:url('images/santidade.svg')"></div>
                                                 </div>
                                                 
-                                                <p class="mb-0 lh-40 base-fg-inverse fs-32">Mediante o Espírito Santo que habita em nós, somos levados a viver conforme as
+                                                <p class="mb-0 lh-40 base-fg-inverse fs-24 fs-md-32">Mediante o Espírito Santo que habita em nós, somos levados a viver conforme as
                                                     escrituras e desenvolver em nós o caráter de Cristo.</p>
-                                                <span class="base-fg-inverse fs-32">Gal 2:16-21 | Lv 20:26</span>
+                                                <span class="base-fg-inverse fs-24 fs-md-32">Gal 2:16-21 | Lv 20:26</span>
                                             </div>
 
                                         </div>
                                         <div class="carousel-cell">
 
-                                            <div class="text-left primary-bg-200 px-52 py-64" style="border-radius:56px; overflow: auto; height: inherit;">
+                                            <div class="text-left primary-bg-200 px-24 py-24 px-md-52 py-md-64" style="border-radius:56px; overflow: auto; height: inherit;">
                                                 <div class="d-flex flex-column flex-md-row">
                                                     <div class="d-flex order-md-0 order-1">
-                                                        <span class="p-0 mt-0 primary-fg-700 fs-48 fw-800"><b>Relacionamento com Deus</b></span>
+                                                        <span class="p-0 mt-0 primary-fg-700 fs-28 fs-md-48 fw-800"><b>Relacionamento com Deus</b></span>
                                                     </div>
                                                     <div class="d-flex mx-auto mx-md-0 r-card-icon mb-0 order-md-1 order-0 mt-2"
                                                         style="background-image:url('images/relacionamento.svg')"></div>
                                                 </div>
                                                 
-                                                <p class="mb-0 lh-40 base-fg-inverse fs-32">O desejo de Deus é se relacionar com o ser humano. Portanto, buscamos uma interação
+                                                <p class="mb-0 lh-40 base-fg-inverse fs-24 fs-md-32">O desejo de Deus é se relacionar com o ser humano. Portanto, buscamos uma interação
                                                     diária com Ele através de oração, jejum e leitura da palavra, a fim de desenvolver mais intimidade
                                                     com o Criador.</p>
-                                                <span class="base-fg-inverse fs-32">João 15:15 | Marcos 15:39</span>
+                                                <span class="base-fg-inverse fs-24 fs-md-32">João 15:15 | Marcos 15:39</span>
                                             </div>
 
                                         </div>
                                         <div class="carousel-cell">
 
-                                            <div class="text-left primary-bg-200 px-52 py-64" style="border-radius:56px; overflow: auto; height: inherit;">
+                                            <div class="text-left primary-bg-200 px-24 py-24 px-md-52 py-md-64" style="border-radius:56px; overflow: auto; height: inherit;">
                                                 <div class="d-flex flex-column flex-md-row">
                                                     <div class="d-flex order-md-0 order-1">
-                                                        <span class="p-0 mt-0 primary-fg-700 fs-48 fw-800"><b>Fraternidade</b></span>
+                                                        <span class="p-0 mt-0 primary-fg-700 fs-28 fs-md-48 fw-800"><b>Fraternidade</b></span>
                                                     </div>
                                                     <div class="d-flex mx-auto mx-md-0 r-card-icon mb-0 order-md-1 order-0"
                                                         style="background-image:url('images/fraternidade.svg')"></div>
                                                 </div>
                                                 
-                                                <p class="mb-0 lh-40 base-fg-inverse fs-32">Todos que aceitaram o sacrifício de Jesus se tornaram filhos de Deus e fazem parte da
+                                                <p class="mb-0 lh-40 base-fg-inverse fs-24 fs-md-32">Todos que aceitaram o sacrifício de Jesus se tornaram filhos de Deus e fazem parte da
                                                     mesma família. Sabendo disso, vivemos uns pelos outros, sendo um só corpo em Cristo.</p>
-                                                <span class="base-fg-inverse fs-32">Jo 17:21 | Rm 12:10</span>
+                                                <span class="base-fg-inverse fs-24 fs-md-32">Jo 17:21 | Rm 12:10</span>
                                             </div>
 
                                         </div>
                                         <div class="carousel-cell">
 
-                                            <div class="text-left primary-bg-200 px-52 py-64" style="border-radius:56px; overflow: auto; height: inherit;">
+                                            <div class="text-left primary-bg-200 px-24 py-24 px-md-52 py-md-64" style="border-radius:56px; overflow: auto; height: inherit;">
                                                 <div class="d-flex flex-column flex-md-row">
                                                     <div class="d-flex order-md-0 order-1">
-                                                        <span class="p-0 mt-0 primary-fg-700 fs-48 fw-800"><b>Mover Sobrenatural</b></span>
+                                                        <span class="p-0 mt-0 primary-fg-700 fs-28 fs-md-48 fw-800"><b>Mover Sobrenatural</b></span>
                                                     </div>
                                                     <div class="d-flex mx-auto mx-md-0 r-card-icon mb-0 order-md-1 order-0" style="background-image:url('images/mover.svg')">
                                                     </div>
                                                 </div>
                                                 
-                                                <p class="mb-0 lh-40 base-fg-inverse fs-32">Exercemos a autoridade que Cristo nos deu, por intermédio do Espírito Santo que habita
+                                                <p class="mb-0 lh-40 base-fg-inverse fs-24 fs-md-32">Exercemos a autoridade que Cristo nos deu, por intermédio do Espírito Santo que habita
                                                     em nós, manifestando o reino de Deus na terra.</p>
-                                                <span class="base-fg-inverse fs-32">Jo. 14:12 | Mc.16:15-20</span>
+                                                <span class="base-fg-inverse fs-24 fs-md-32">Jo. 14:12 | Mc.16:15-20</span>
                                             </div>
 
                                         </div>
                                         <div class="carousel-cell">
 
-                                            <div class="text-left primary-bg-200 px-52 py-64" style="border-radius:56px; overflow: auto; height: inherit;">
+                                            <div class="text-left primary-bg-200 px-24 py-24 px-md-52 py-md-64" style="border-radius:56px; overflow: auto; height: inherit;">
                                                 <div class="d-flex flex-column flex-md-row">
                                                     <div class="d-flex order-md-0 order-1">
-                                                        <span class="p-0 mt-0 primary-fg-700 fs-48 fw-800"><b>Honra</b></span>
+                                                        <span class="p-0 mt-0 primary-fg-700 fs-28 fs-md-48 fw-800"><b>Honra</b></span>
                                                     </div>
                                                     <div class="d-flex mx-auto mx-md-0 r-card-icon mb-0 order-md-1 order-0" style="background-image:url('images/honra.svg')">
                                                     </div>
                                                 </div>
                                                 
-                                                <p class="mb-0 lh-40 base-fg-inverse fs-32">De acordo com a perspectiva de Deus, valorizamos e respeitamos todas as pessoas. E
+                                                <p class="mb-0 lh-40 base-fg-inverse fs-24 fs-md-32">De acordo com a perspectiva de Deus, valorizamos e respeitamos todas as pessoas. E
                                                     reconhecemos que toda autoridade é estabelecida por Ele.</p>
-                                                <span class="base-fg-inverse fs-32">Rm.13:1-2 | 1 Pe.2:17</span>
+                                                <span class="base-fg-inverse fs-24 fs-md-32">Rm.13:1-2 | 1 Pe.2:17</span>
                                             </div>
 
                                         </div>
                                         <div class="carousel-cell">
 
-                                            <div class="text-left primary-bg-200 px-52 py-64" style="border-radius:56px; overflow: auto; height: inherit;">
+                                            <div class="text-left primary-bg-200 px-24 py-24 px-md-52 py-md-64" style="border-radius:56px; overflow: auto; height: inherit;">
                                                 <div class="d-flex flex-column flex-md-row">
                                                     <div class="d-flex order-md-0 order-1">
-                                                        <span class="p-0 mt-0 primary-fg-700 fs-48 fw-800"><b>Excelência</b></span>
+                                                        <span class="p-0 mt-0 primary-fg-700 fs-28 fs-md-48 fw-800"><b>Excelência</b></span>
                                                     </div>
                                                     <div class="d-flex mx-auto mx-md-0 r-card-icon mb-0 order-md-1 order-0"
                                                         style="background-image:url('images/excelencia.svg')"></div>
                                                 </div>
                                                 
-                                                <p class="mb-0 lh-40 base-fg-inverse fs-32">Em tudo nós vemos a perfeição e a excelência do Criador. Como imitadores dEle,
+                                                <p class="mb-0 lh-40 base-fg-inverse fs-24 fs-md-32">Em tudo nós vemos a perfeição e a excelência do Criador. Como imitadores dEle,
                                                     acreditamos na excelência como uma forma de honrar, adorar e expressar o caráter de Deus em tudo que
                                                     Ele confia em nossas mãos e em tudo o que fazemos.</p>
-                                                <span class="base-fg-inverse fs-32">Cl. 3:23 | Mt. 5:16 | Mt. 25:14-28 | Dn. 6:3</span>
+                                                <span class="base-fg-inverse fs-24 fs-md-32">Cl. 3:23 | Mt. 5:16 | Mt. 25:14-28 | Dn. 6:3</span>
                                             </div>
 
                                         </div>
                                         <div class="carousel-cell">
 
-                                            <div class="text-left primary-bg-200 px-52 py-64" style="border-radius:56px; overflow: auto; height: inherit;">
+                                            <div class="text-left primary-bg-200 px-24 py-24 px-md-52 py-md-64" style="border-radius:56px; overflow: auto; height: inherit;">
                                                 <div class="d-flex flex-column flex-md-row">
                                                     <div class="d-flex order-md-0 order-1">
-                                                        <span class="p-0 mt-0 primary-fg-700 fs-48 fw-800"><b>Discipulado</b></span>
+                                                        <span class="p-0 mt-0 primary-fg-700 fs-28 fs-md-48 fw-800"><b>Discipulado</b></span>
                                                     </div>
                                                     <div class="d-flex mx-auto mx-md-0 r-card-icon mb-0 order-md-1 order-0"
                                                         style="background-image:url('images/discipulado.svg')"></div>
                                                 </div>
                                                 
-                                                <p class="mb-0 lh-40 base-fg-inverse fs-32">Cristo nos comissionou ao discipulado, e essa foi a forma que Ele preparou os que
+                                                <p class="mb-0 lh-40 base-fg-inverse fs-24 fs-md-32">Cristo nos comissionou ao discipulado, e essa foi a forma que Ele preparou os que
                                                     vieram depois dEle para levar o Reino de Deus ao mundo. Portanto, o discipulado é a forma como nos
                                                     capacitamos, uns aos outros, a sermos mais parecidos com Cristo. Nós somos discípulos de Jesus e
                                                     devemos discipular outros conforme aprendemos com Ele, trazendo conhecimento, maturidade espiritual
                                                     e um estilo de vida cristão.</p>
-                                                <span class="base-fg-inverse fs-32">Mt. 28:19 | II Tim. 2:1-2 | I Cor 11:1</span>
+                                                <span class="base-fg-inverse fs-24 fs-md-32">Mt. 28:19 | II Tim. 2:1-2 | I Cor 11:1</span>
                                             </div>
 
                                         </div>
@@ -647,7 +645,7 @@
                         </h2>
                         <div class="grid-md-2 gap-24">
                             <div class="d-flex gap-24">
-                                <div class="w-80 h-80 w-sm-100 h-sm-100" style="background:url(<?php echo esc_url($footer_icon_1); ?>)no-repeat center center/cover"></div>
+                                <div class="min-w-80 min-h-80 w-sm-100 h-sm-100" style="background:url(<?php echo esc_url($footer_icon_1); ?>)no-repeat center center/contain"></div>
                                 <div class="d-flex-column pl-10">
                                     <span class="base-fg-inverse fs-24">Av. do Estado 4568</span>
                                     <span class="base-fg-inverse fs-24">São Paulo, SP</span>
@@ -655,10 +653,10 @@
                                 </div>
                             </div>
                             <div class="d-flex gap-24">
-                                <div class="w-80 h-80 w-sm-100 h-sm-100" style="background:url(<?php echo esc_url($footer_icon_2); ?>)no-repeat center center/cover"></div>
+                                <div class="min-w-80 min-h-80 w-sm-100 h-sm-100" style="background:url(<?php echo esc_url($footer_icon_2); ?>)no-repeat center center/contain"></div>
                                 <div class="d-flex-column pl-10">
                                     <span class="base-fg-inverse fs-24">Atendimento</span>
-                                    <span class="base-fg-inverse fs-24">+55 (11) 3347-4700</span>
+                                    <span class="base-fg-inverse fs-24">+55 (11) 3347-4740</span>
                                     <span class="base-fg-inverse fs-24">contatoregenere@ipda.com.br</span>
                                 </div>
                             </div>
